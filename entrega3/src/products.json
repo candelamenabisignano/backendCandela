@@ -1,0 +1,42 @@
+[
+{
+    "id":1,
+    "name":"caramelo",
+    "stock":100
+},
+{
+    "id":2,
+    "name":"chupetin",
+    "stock": 40
+},
+{
+    "id":3,
+    "name":"papas fritas",
+    "stock":60
+},
+{
+    "id":4,
+    "name":"doritos",
+    "stock":40
+},
+{
+    "id":5,
+    "name":"chocolate",
+    "stock":20
+},
+{
+    "id":6,
+    "name":"alfajor",
+    "stock":70
+},
+{
+    "id":7,
+    "name":"frutos secos",
+    "stock":10
+},
+{
+    "id":8,
+    "name":"gaseosas",
+    "stock":80
+}
+]
