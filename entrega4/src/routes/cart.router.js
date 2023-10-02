@@ -41,9 +41,7 @@ router.get('/:cid', async (req,res)=>{
         return res.status(400).send({status:'error', error:'cart not found'})
     }
 
-    const index= carts.findIndex((c)=>c.id === id);
-    const products= carts[index].products
-    return res.status(200).send({status:'success', payload: products})
+    return res.status(200).send({status:'success', payload: cart})
 });
 
 router.post('/:cid/products/:pid', async (req,res)=>{
