@@ -1,50 +1,74 @@
 import { Router } from "express";
 import cartManager from "../managers/cartManager.js";
+import { __dirname } from "../utils.js";
 
 const router=Router();
-const manager=new cartManager("../src/files/carts.json")
+const manager=new cartManager(`${__dirname}/files/carts.json`)
+
 
 router.get('/', async (req,res)=>{
-    const carts= await manager.getCarts()
-    const queryLimit= parseInt(req.query.limit);
-    if(!queryLimit){
-        return res.send({status:'success', payload:carts});
-    }else{
-        const result= carts.filter((c)=> c.id <= queryLimit);
-        return res.send({status:'success', payload:result})
+
+    try {
+        
+        const carts= await manager.getCarts()
+        const queryLimit= parseInt(req.query.limit);
+        if(!queryLimit){
+            return res.send({status:'success', payload:carts});
+        }else{
+            const result= carts.filter((c)=> c.id <= queryLimit);
+            return res.send({status:'success', payload:result})
+        }
+
+    } catch (error) {
+        console.log(error)
     }
+
 })
 
 router.post('/', async (req, res)=>{
-    const cart=req.body;
 
-    if(!cart.products){
-        return res.status(400).send({status:'error', error:'incomplete campus'});
-    }else if(!Array.isArray(cart.products)){
-        return res.status(400).send({status:'error', error:'products its not an array'});
+    try {
+    
+        const carts= await manager.getCarts()
+        const id= carts.length === 0 ? 1: carts[carts.length-1].id+1;
+        const cart= {products:[], id:id}
+    
+        await manager.addCarts(cart)
+        
+        
+        const newCart= await manager.getCarts()
+
+        return res.status(200).send({status:'success', payload:newCart})
+    
+    } catch (error) {
+        console.log(error)
     }
-
-    await manager.addCarts(cart)
-
-    const carts= await manager.getCarts()
-
-    return res.status(200).send({status:'success', payload:carts})
 });
 
 router.get('/:cid', async (req,res)=>{
-    const id=parseInt(req.params.cid);
-    const carts= await manager.getCarts()
 
-    const cart= await manager.getCartsById(id)
+    try {
+        
+        const id=parseInt(req.params.cid);
+        const carts= await manager.getCarts()
+    
+        const cart= await manager.getCartsById(id)
+    
+        if(cart === undefined){
+            return res.status(400).send({status:'error', error:'cart not found'})
+        }
+    
+        return res.status(200).send({status:'success', payload: cart})
 
-    if(cart === undefined){
-        return res.status(400).send({status:'error', error:'cart not found'})
+    } catch (error) {
+        console.log(error)
     }
-
-    return res.status(200).send({status:'success', payload: cart})
 });
 
-router.post('/:cid/products/:pid', async (req,res)=>{
+router.post('/:cid/product/:pid', async (req,res)=>{
+
+    try {
+
     const cartId=parseInt(req.params.cid);
     const productId= parseInt(req.params.pid);
     const cart= await manager.getCartsById(cartId);
@@ -58,6 +82,11 @@ router.post('/:cid/products/:pid', async (req,res)=>{
     const products= await manager.getCarts()
 
     return res.status(200).send({status:'success', payload:products })
+        
+    } catch (error) {
+        console.log(error)
+    }
+
 })
 
 export default router
