@@ -1,0 +1,58 @@
+[
+	{
+		"id": 1,
+		"title": "Producto 1",
+		"description": "Descripción del Producto 1",
+		"code": "PROD001",
+		"price": 29.99,
+		"stock": 50,
+		"category": "Electrónica"
+	},
+	{
+		"id": 2,
+		"title": "Producto 2",
+		"description": "Descripción del Producto 2",
+		"code": "PROD002",
+		"price": 19.99,
+		"stock": 30,
+		"category": "Ropa"
+	},
+	{
+		"id": 3,
+		"title": "Producto 3",
+		"description": "Descripción del Producto 3",
+		"code": "PROD003",
+		"price": 9.99,
+		"stock": 100,
+		"category": "Hogar"
+	},
+	{
+		"id": 4,
+		"title": "Producto 4",
+		"description": "Descripción del Producto 4",
+		"code": "PROD004",
+		"price": 49.99,
+		"stock": 20,
+		"category": "Deportes"
+	},
+	{
+		"title": "gfdf",
+		"description": "dfgdg",
+		"code": "ggd",
+		"price": "hi",
+		"stock": "hi",
+		"category": "hi",
+		"id": 5,
+		"status": true
+	},
+	{
+		"title": "gfdf",
+		"description": "dfgdg",
+		"code": "ggd",
+		"price": "hi",
+		"stock": "hi",
+		"category": "hi",
+		"id": 6,
+		"status": true
+	}
+]
