@@ -5,7 +5,7 @@ const submitAdd= document.body.querySelector('#submitAdd');
 const submitDelete= document.body.querySelector('#submitDelete');
 const container= document.body.querySelector("#productsContainer");
 const formAdd= document.body.querySelector('#addProducts')
-const formDelete=document.body.querySelector('#deleteProducts');
+const inputId= document.body.querySelector('#inputId')
 
 const addProducts= async(product)=>{
     try {
@@ -20,47 +20,39 @@ const addProducts= async(product)=>{
         console.log(error)
     }
 };
-const deleteProducts= async(products)=>{
+
+submitAdd.addEventListener('click', async(e)=>{
     try {
-       await fetch("/api/products/:pid",{
-        method:"GET",
-        body: JSON.stringify(products.products.filter((p)=>p.id != products.id)),
-        headers:{
-            "Content-type":"application/json"
-        }
-       }) 
+
+        e.preventDefault();
+        const {title, description, code,price, stock, category}=formAdd.elements;
+        const product={
+            title:title.value,
+            description:description.value,
+            code:code.value,
+            price:price.value,
+            stock:stock.value, 
+            category:category.value
+        };
+        await addProducts(product)
+        
     } catch (error) {
         console.log(error)
     }
-};
+
+});
 
 submitDelete.addEventListener('click', async(e)=>{
-    e.preventDefault();
-    socket.on('productsEliminate', async data=>{
-        await deleteProducts(data);
-        data.products.forEach(p=>{
-            container.innerHTML+=`
-            <div>
-            <p>${p.title}</p>
-            <p>${p.description}</p>
-            </div>
-            `
-        })
-    })
-})
 
-submitAdd.addEventListener('click', async(e)=>{
-    e.preventDefault();
-    const {title, description, code,price, stock, category}=formAdd.elements;
-    const product={
-        title:title.value,
-        description:description.value,
-        code:code.value,
-        price:price.value,
-        stock:stock.value, 
-        category:category.value
-    };
-    await addProducts(product)
+    try {
+        e.preventDefault();
+        const id= Number(inputId.value);
+        socket.emit('deleteProducts', id);
+        inputId.value=''
+    } catch (error) {
+        console.log(error)
+    }
+
 });
 
 socket.on('productsNew', data=>{
@@ -68,12 +60,19 @@ socket.on('productsNew', data=>{
     data.forEach(p => {
         container.innerHTML+=`
         <div>
-        <p>${p.title}</p>
+        <h2>${p.title}</h2>
         <p>${p.description}</p>
+        <p>${p.id}</p>
         </div>
         `
     });
 });
+
+
+
+
+
+
 
 
 

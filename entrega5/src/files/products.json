@@ -1,20 +1,61 @@
 [
 	{
-		"id": 4,
-		"title": "Producto 4",
-		"description": "Descripción del Producto 4",
-		"code": "PROD004",
-		"price": 49.99,
-		"stock": 20,
-		"category": "Deportes"
-	},
-	{
-		"title": "holi",
+		"title": "gfdf",
 		"description": "dfgdg",
 		"code": "ggd",
 		"price": "1",
 		"stock": "1",
-		"category": "hi",
+		"category": "dfgdg",
+		"id": 2,
+		"status": true
+	},
+	{
+		"title": "gfdf",
+		"description": "dfgdg",
+		"code": "ggd",
+		"price": "1",
+		"stock": "1",
+		"category": "dfgdg",
+		"id": 3,
+		"status": true
+	},
+	{
+		"title": "gfdf",
+		"description": "dfgdg",
+		"code": "ggd",
+		"price": "1",
+		"stock": "1",
+		"category": "dfgdg",
+		"id": 5,
+		"status": true
+	},
+	{
+		"title": "gfdf",
+		"description": "dfgdg",
+		"code": "ggd",
+		"price": "1",
+		"stock": "1",
+		"category": "dfgdg",
+		"id": 6,
+		"status": true
+	},
+	{
+		"title": "gfdf",
+		"description": "dfgdg",
+		"code": "ggd",
+		"price": "1",
+		"stock": "1",
+		"category": "dfgdg",
+		"id": 7,
+		"status": true
+	},
+	{
+		"title": "gfdf",
+		"description": "dfgdg",
+		"code": "ggd",
+		"price": "1",
+		"stock": "1",
+		"category": "dfgdg",
 		"id": 8,
 		"status": true
 	},
@@ -23,7 +64,7 @@
 		"description": "dfgdg",
 		"code": "ggd",
 		"price": "1",
-		"stock": "2",
+		"stock": "1",
 		"category": "dfgdg",
 		"id": 9,
 		"status": true
@@ -32,19 +73,19 @@
 		"title": "gfdf",
 		"description": "dfgdg",
 		"code": "ggd",
-		"price": "2",
+		"price": "1",
 		"stock": "1",
 		"category": "dfgdg",
 		"id": 10,
 		"status": true
 	},
 	{
-		"title": "gfdf",
-		"description": "dfgdg",
-		"code": "ggd",
-		"price": "2",
+		"title": "holi",
+		"description": "xd",
+		"code": "hi",
+		"price": "1",
 		"stock": "1",
-		"category": "dfgdg",
+		"category": "hi",
 		"id": 11,
 		"status": true
 	}

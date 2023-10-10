@@ -22,7 +22,23 @@ const server= app.listen(8080, ()=> console.log('server running'));
 
 const socketServer = new Server(server);
 
+socketServer.on('connection', socket=>{
+    socket.on('deleteProducts', async data=>{
+
+        try {
+            await manager.deleteProductById(data);
+            const products= await manager.getProducts();
+            socket.emit('productsNew', products);
+
+        } catch (error) {
+            console.log(error)
+        }
+    })
+})
+
 app.set('socketio', socketServer);
+
+
 
 
 

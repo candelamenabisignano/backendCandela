@@ -29,9 +29,8 @@
     </form>
 
     <h1>delete products</h1>
-    <form action="/api/products/:pid" method="get">
-        <input type="submit" id="submitDelete" name="id">
-    </form>
+    <input type="number" id="inputId" name="id" placeholder="id product.." min="1">
+    <input type="submit" id="submitDelete">
     <h1>products</h1>
     <div id="productsContainer">
     </div>

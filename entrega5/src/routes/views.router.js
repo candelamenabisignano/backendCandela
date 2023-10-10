@@ -19,4 +19,5 @@ router.get('/realtimeproducts', async(req,res)=>{
         console.log(error)
     }
 });
+
 export default router
