@@ -1,6 +1,6 @@
 <section>
     <h1>add products</h1>
-    <form action="/api/products" method="post">
+    <form action="/api/products" method="post" id="addProducts">
         <div>
         <label>title</label>
         <input type="text" name='title'/>
@@ -15,19 +15,23 @@
     </div>
     <div>
         <label>price</label>
-        <input type="text" name='price'/>
+        <input type="number" name='price'/>
     </div>
     <div>
         <label>stock</label>
-        <input type="text" name='stock'/>
+        <input type="number" name='stock'/>
     </div>
     <div>
         <label>category</label>
         <input type="text" name='category'/>
     </div>
-    <input type="submit" id="submit"/>
+    <input type="submit" id="submitAdd"/>
     </form>
 
+    <h1>delete products</h1>
+    <form action="/api/products/:pid" method="get">
+        <input type="submit" id="submitDelete" name="id">
+    </form>
     <h1>products</h1>
     <div id="productsContainer">
     </div>

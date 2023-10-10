@@ -35,8 +35,11 @@ export default class productsManager{
             product.status=true
 
             products.push(product);
+            console.log(products)
 
-            return await fs.promises.writeFile(this.path, JSON.stringify(products, null, "\t"));
+            await fs.promises.writeFile(this.path, JSON.stringify(products, null, "\t"));
+
+            return products;
 
         }catch(error){
             console.log(error);
