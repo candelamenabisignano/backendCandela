@@ -1,0 +1,80 @@
+import { Router } from "express";
+import products from "../dao/fileManagers/managers/productsManager.js";
+import productsDB from "../dao/dbManagers/managers/productsManagerDB.js";
+import { __dirname } from "../utils.js";
+const router= Router();
+const manager= new products(`${__dirname}/dao/fileManagers/files/products.json`);
+const managerDB= new productsDB();
+
+router.get('/', async(req,res)=>{
+
+    try {
+        const products= await manager.get();
+        const productsDB= await managerDB.get();
+        res.status(200).send({status:'success', payload:{fs:products, db:productsDB}});
+    } catch (error) {
+        res.status(400).send({status:'error', error:error.message});
+    };
+});
+
+router.get('/:id', async(req,res)=>{
+    const id= req.params.id;
+
+    try {
+        const product= await manager.getById(id);
+        const productDB= await managerDB.getById(id);
+        res.status(200).send({status:'success', payload:{fs:product, db:productDB}});
+    } catch (error) {
+        res.status(400).send({status:'error', error:error.message});
+    }
+});
+
+router.post('/', async(req,res)=>{
+
+    try {
+        const{title,description,code,price,status,stock,category,thumbnail}=req.body;
+
+        if(!title||!description||!code||!price||!status||!stock||!category||!thumbnail){
+            return res.status(400).send({status:'error', error:'incomplete campus'});
+        };
+        const productDB=await managerDB.add({title,description,code,price,status,stock,category,thumbnail});
+        const product= await manager.add({title,description,code,price,status,stock,category,thumbnail}, productDB._id);
+
+        res.status(201).send({status:'success', payload:{fs:product, db:productDB}});
+
+    } catch (error) {
+        res.status(400).send({status:'error', error:error.message});
+    };
+});
+
+router.put('/:id', async(req,res)=>{
+    const id=req.params.id;
+    try {
+        const{title,description,code,price,status,stock,category,thumbnail}=req.body;
+
+        if(!title||!description||!code||!price||!status||!stock||!category||!thumbnail){
+            return res.status(400).send({status:'error', error:'incomplete campus'});
+        };
+
+        const productDB= await managerDB.uptade(id, {title, description, code, price, status, stock, category, thumbnail});
+        const product= await manager.uptade(id, {title, description, code, price, status, stock, category, thumbnail, id:id});
+        
+        res.status(200).send({status:'success', payload:{fs:product, db:productDB}});
+    } catch (error) {
+        res.status(400).send({status:'error', error:error.message});
+    };
+});
+
+router.delete('/:id', async(req,res)=>{
+    const id=req.params.id;
+    try {
+        const result=await manager.deleteById(id);
+        const resultDB=await managerDB.delete(id);
+        res.status(200).send({status:'success', payload:{fs:result, db:resultDB}});
+
+    } catch (error) {
+        res.status(400).send({status:'error', error:error.message})
+    };
+});
+
+export default router;
