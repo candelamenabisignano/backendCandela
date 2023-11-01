@@ -30,7 +30,7 @@ router.get('/:id', async(req,res)=>{
 });
 
 router.post('/', async(req,res)=>{
-    const{products, id}=req.body;
+    const{products}=req.body;
 
     try {
         const productDB= await managerDB.add(products);
@@ -41,17 +41,19 @@ router.post('/', async(req,res)=>{
     };
 });
 
-//  router.put('/:cid/:pid', async(req,res)=>{
-//      const cartId= req.params.cid;
-//      const productId= req.params.pid;
-//     try {
-//         const uptadeDB= await managerDB.addProduct(cartId, productId);
-//         const uptade= await manager.addToCart(cartId,productId);
-//          res.status(200).send({status:'success', payload:{fs:uptade, db:uptadeDB}});
-//     } catch (error) {
-//         res.status(400).send({status:'error', error:error.message}); 
-//      }
-//  });
+router.post('/:cid/product/:pid', async(req,res)=>{
+    const cartId= req.params.cid;
+    const productId= req.params.pid;
+    try {
+        await manager.addToCart(cartId,productId);
+        await managerDB.addProducts(cartId,productId);
+        const result= await manager.get();
+        const resultDB= await managerDB.get();
+        res.status(201).send({status:'success'});
+    } catch (error) {
+        res.status(400).send({status:'error', error:error.message});
+    }
+})
 
 router.delete('/:cid', async(req,res)=>{
     const cartId=req.params.cid;

@@ -11,7 +11,7 @@ export default class cartsDB{
     };
 
     getById=async(id)=>{
-        const cart= await cartModel.find({_id:id});
+        const cart= await cartModel.findById(id);
         return cart;
     };
 
@@ -20,26 +20,24 @@ export default class cartsDB{
         return product;
     };
 
-    // addProduct= async(cartId, productId)=>{
-    //     const cart= await this.getById(cartId);
-    //     const carts= await this.get();
-    //     const products= cart.products;
-    //     const some= products.some((p)=> p.id === productId);
+    addProducts= async(cartId, productId)=>{
+        const cart= await this.getById(cartId);
+        const carts= await this.get();
+        const some= cart.products.some((p)=> p.id === productId);
 
-    //     if(some){
-    //         const product= products.find((p)=> p.product === productId);
-    //         const index= carts.findIndex((c)=> c.id === cartId);
-    //         carts[index]=cart;
-    //     }else{
-    //           products.push({product:productId, quantity:1});
-    //         const index= carts.findIndex((c)=> c.id === cartId);
-    //         carts[index]=cart;
-    //     };
+        if(some){
+            const product= cart.products.find((p)=> p.id === productId);
+            const newProduct= {...product, quantity:product.quantity+1};
+            const index= cart.products.indexOf(product);
+            cart.products[index]= newProduct;
+        }else{
+            cart.products.push({product:productId, quantity:1});
+            const index= carts.indexOf(cart);
+            carts[index]= cart
+        };
 
-    //     const cartRes= await this.get();
-
-    //     return cartRes;
-    // };
+        return carts;
+    }
 
     delete=(id)=>{
         const res= cartModel.deleteOne({_id:id});
