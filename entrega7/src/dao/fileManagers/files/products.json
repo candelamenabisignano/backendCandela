@@ -1,0 +1,30 @@
+[
+	{
+		"title": "holisssss",
+		"description": "Esta es una descripción de ejemplo",
+		"code": "ABC123666",
+		"price": 29.99,
+		"status": true,
+		"stock": 100,
+		"category": "Electrónica",
+		"thumbnail": [
+			"imagen1.jpg",
+			"imagen2.jpg"
+		],
+		"id": "653ef8e287b15bbb9f35a8d8"
+	},
+	{
+		"title": "Producto de ejemplo",
+		"description": "Esta es una descripción de ejemplo",
+		"code": "ABC1236666",
+		"price": 29.99,
+		"status": true,
+		"stock": 100,
+		"category": "Electrónica",
+		"thumbnail": [
+			"imagen1.jpg",
+			"imagen2.jpg"
+		],
+		"id": "65403088ee899a9bf9e85740"
+	}
+]
