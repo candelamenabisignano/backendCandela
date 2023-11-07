@@ -21,29 +21,28 @@ export default class cartsManager{
         return find;
     };
 
-    add= async(cart, id)=>{
+    add= async(productBody, quantityBody, id)=>{
         const carts= await this.get();
         const _id=id
-        cart.id=_id;
-        carts.push({...cart, id:id});
+        carts.push({products: [{product: productBody, quantity: quantityBody}], id:_id});
         await fs.promises.writeFile(this.path, JSON.stringify(carts, null, "\t"));
-        return {...cart, id:id};
+        return carts;
     };
 
     addToCart= async(cartId, productId)=>{
         const cart= await this.getById(cartId);
         const carts= await this.get();
-        const some= cart.products.some((p)=> p.product === productId);
-
-        if(some){
-            const product= cart.products.find((p)=> p.product === productId);
-            product.quantity++;
-            const index= carts.findIndex((c)=> c.id === cartId);
+        const some= cart.products.some((p)=> p.product.id == productId);
+        console.log(some)
+        if(!some){
+            cart.products.push({product:productId, quantity:1});
+            const index= carts.findIndex((c)=> c.id == cartId);
             carts[index]=cart;
             await fs.promises.writeFile(this.path, JSON.stringify(carts, null, "\t"));
         }else{
-            cart.products.push({product:productId, quantity:1});
-            const index= carts.findIndex((c)=> c.id === cartId);
+            const product= cart.products.find((p)=> p.product._id == productId);
+            product= {...product, quantity:product.quantity+1}
+            const index= carts.findIndex((c)=> c.id == cartId);
             carts[index]=cart;
             await fs.promises.writeFile(this.path, JSON.stringify(carts, null, "\t"));
         };

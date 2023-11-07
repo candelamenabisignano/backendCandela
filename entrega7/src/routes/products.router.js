@@ -14,6 +14,7 @@ router.get('/', async(req,res)=>{
     const sort= req.query.sort||'asc';
     try {
         const{docs, totalPages, prevPage, nextPage, page, hasPrevPage, hasNextPage}=await managerDB.get(query, queryValue, limit, pageQuery, sort);
+        //const products= await manager.get();
         const prevLink= hasPrevPage ? `/products?page=${prevPage}&limit=${limit}` : null;
         const nextLink= hasNextPage ? `/products?page=${nextPage}&limit=${limit}` : null;
         res.status(200).send({status:'success', payload:[...docs], totalPages, prevPage, nextPage, page, hasPrevPage, hasNextPage, prevLink, nextLink });
@@ -31,7 +32,7 @@ router.get('/:id', async(req,res)=>{
         res.status(200).send({status:'success', payload:productDB});
     } catch (error) {
         res.status(400).send({status:'error', error:error.message});
-    }
+    };
 });
 
 router.post('/', async(req,res)=>{
@@ -62,9 +63,9 @@ router.put('/:id', async(req,res)=>{
         };
 
         const productDB= await managerDB.uptade(id, {title, description, code, price, status, stock, category, thumbnail});
-        const product= await manager.uptade(id, {title, description, code, price, status, stock, category, thumbnail, id:id});
+        //const product= await manager.uptade(id, {title, description, code, price, status, stock, category, thumbnail, id:id});
         
-        res.status(200).send({status:'success', payload:{fs:product, db:productDB}});
+        res.status(200).send({status:'success', payload:productDB});
     } catch (error) {
         res.status(400).send({status:'error', error:error.message});
     };
@@ -73,9 +74,9 @@ router.put('/:id', async(req,res)=>{
 router.delete('/:id', async(req,res)=>{
     const id=req.params.id;
     try {
-        const result=await manager.deleteById(id);
+        //const result=await manager.deleteById(id);
         const resultDB=await managerDB.delete(id);
-        res.status(200).send({status:'success', payload:{fs:result, db:resultDB}});
+        res.status(200).send({status:'success', payload:resultDB});
 
     } catch (error) {
         res.status(400).send({status:'error', error:error.message})

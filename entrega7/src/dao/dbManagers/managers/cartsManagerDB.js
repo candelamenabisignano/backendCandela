@@ -15,8 +15,9 @@ export default class cartsDB{
         return cart;
     };
 
-    add= async(cart)=>{
-        const product=await cartModel.create({products:[...cart]});
+    add= async(productBody, quantityBody)=>{
+        const product=await cartModel.create({products:[{quantity:quantityBody, product:productBody}]});
+        console.log(product);
         return product;
     };
 
@@ -26,16 +27,17 @@ export default class cartsDB{
         const some= cart.products.some((p)=> p.product._id == productId);
 
         if(some){
-            const product= cart.products.find((p)=> p.product._id == productId);
-            const newProduct= {product:{...product.product}, quantity:product.quantity+1};
+            const product= cart.products.find((p)=> p.product._id == productId)
+            product.quantity+1;
             const index= cart.products.findIndex((p)=> p.product._id == productId);
-            cart.products[index]= newProduct;
+            cart.products[index]= product;
         }else{
-            console.log(JSON.stringify(cart) +'hola console.log');
             cart.products.push({product:productId, quantity:1});
+            const index= carts.findIndex((c)=> c._id == cartId);
+            carts[index]=cart;
         };
-        await cartModel.findByIdAndUpdate(cartId, cart);
-        return cart;
+        await cartModel.findByIdAndUpdate(cart._id, cart);
+        return carts;
     };
 
     delete=async (id)=>{

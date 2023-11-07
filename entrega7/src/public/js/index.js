@@ -10,7 +10,7 @@ buttons.forEach((button)=>{
 
 const addProduct=async(id)=>{
     try {
-        const data= await fetch(`/api/carts/6546e3b3d3c3ed69d46e4474/product/${id}`, {
+        const data= await fetch(`/api/carts/6547bba0e6a73dd65b6adc1d/product/${id}`, {
             method:'POST',
             headers:{
                 "Content-type":"application/json"
