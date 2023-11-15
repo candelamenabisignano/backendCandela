@@ -1,5 +1,6 @@
 import Router from 'express';
 import { usersModel } from '../dao/dbManagers/models/users.model.js';
+import { createHash, isValid } from '../utils.js';
 
 const router= Router();
 
@@ -21,7 +22,7 @@ router.post('/register', async(req,res)=>{
                 last_name,
                 email,
                 age,
-                password
+                password:createHash(password) //almacenamos la contraseña ya hasheada en la DB
             })
         };
 
@@ -34,10 +35,16 @@ router.post('/register', async(req,res)=>{
 router.post('/login', async(req,res)=>{
     try {
         const{email, password}= req.body;
-        const user= await usersModel.findOne({password,email});
+        const user= await usersModel.findOne({email});
 
         if(!user){
-            return res.status(400).send({status:"error", error:"incorrect credentials"});
+            return res.status(401).send({status:"error", error:"incorrect credentials"});
+        };
+
+        //vamso a corroborar que la contra que nos llegue plana es igual a la contra hasheada de la DB
+
+        if(isValid(password, user.password) === false){
+            return res.status(401).send({status:"error", error:'incorrect credentials'})
         };
 
         const isAdmin=user.email === 'adminCoder@coder.com' && password === 'adminCod3r123' ? 'admin' : 'user'
