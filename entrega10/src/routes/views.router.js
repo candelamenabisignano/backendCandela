@@ -6,19 +6,21 @@ const router= Router();
 const cartManagerDB= new cartsDB();
 const productManagerDB= new productsDB();
 
-const publicAccess= (req,res, next)=>{
-    if(req.user){
+const publicAccess= async(req,res, next)=>{
+    if(req.user != (null||undefined)){
         return res.redirect('/products') //si el usuario ya existe que vaya a ver su perfil
     }else{
         return next() //sino que se siga la ejecucion del flujo 
     };
 }
-const privateAccess= (req,res, next)=>{
+const privateAccess= async(req,res, next)=>{
     if(req.user == (null || undefined)){
+        console.log(req.user)
+        console.log('jaja caiste pt')
         return res.redirect('/login') //si el usuario no existe que te redirija para que inicies sesion de vuelta
-    }else{
-        return next() //sino que se siga la ejecucion del flujo y que se vea la vista profile
     };
+
+    return next()
 }
 
 

@@ -6,6 +6,15 @@ import { createHash, generateToken } from '../utils.js';
 const router= Router();
 const usersManager= new UsersManager();
 
+router.get('/', async(req,res)=>{
+    try {
+        const users= await usersManager.getAll();
+        return res.status(200).send({status:'success', payload:users})
+    } catch (error) {
+        return res.status(500).send({status:'error', error:error.message})
+    }
+})
+
 router.post('/register', async(req,res)=>{
     try {
         const {first_name, last_name, email, age, password,cart,role}= req.body;
@@ -27,7 +36,6 @@ router.post('/login', async(req,res)=>{
 
     try {
         const{email, ...passwordConst}= req.body;
-        console.log(passwordConst.password)
         
 
         const exists= await usersManager.get(email);
@@ -54,6 +62,8 @@ router.get('/current', passport.authenticate('jwt', {session:false}), async (req
         if(req.user === (undefined || null)){
             return res.status(400).send({status:'error', error:"user not found"});
         };
+        console.log(req.user)
+        req.user= req.user
         return res.status(200).send({status:'success', payload:req.user});
 
     } catch (error) {

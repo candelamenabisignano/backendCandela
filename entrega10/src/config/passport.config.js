@@ -10,7 +10,7 @@ const Extractor= jwt.ExtractJwt;
 
 const initializePassport=()=>{
     passport.use('jwt', new JwtStrategy({
-        jwtFromRequest:Extractor.fromAuthHeaderAsBearerToken(), // como queremos que passport obtenga las cookies
+        jwtFromRequest:Extractor.fromExtractors([current]), // como queremos que passport obtenga las cookies
         secretOrKey:PRIVATE_KEY //para acceder a los headers
     },async(jwt_payload, done)=>{
         try {
@@ -54,13 +54,13 @@ const initializePassport=()=>{
 
 };
 
-/*const current = req => {
+const current = req => {
     let token = null;
     if(req && req.cookies) { //si existe req.cookies que setee el token como el valor que tenemos en 'tokenCookie'
         token = req.cookies['tokenCookie'];
     };
     return token; //este resultado se setea en jwt_payload
-};*/
+};
 
 export{
     initializePassport
