@@ -82,14 +82,20 @@ router.get('/github-callback', passport.authenticate('github', {failureRedirect:
 });
 
 router.get('/logout', async(req,res)=>{
-    req.destroy((error)=>{
-        if(!error){
-            res.redirect('/login');
-            console.log('session destroyed!')
-        }else{
-            res.send({status:'error', error:error.message})
-        }
-    })
+    try {
+        const cookie= req.cookies['tokenCookie'];
+
+        if(!cookie){
+            return res.status(400).send({status:'error', error:"cookie not found"})
+        };
+
+        req.user= null;
+        res.clearCookie('tokenCookie');
+        return res.redirect('/products')
+        
+    } catch (error) {
+        return res.status(500).send({status:'error', error:error.message})
+    }
 });
 
 export default router;

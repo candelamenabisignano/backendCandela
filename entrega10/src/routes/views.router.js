@@ -2,29 +2,25 @@ import {Router} from 'express';
 import { __dirname } from '../utils.js';
 import cartsDB from '../dao/dbManagers/managers/cartsManagerDB.js';
 import productsDB from '../dao/dbManagers/managers/productsManagerDB.js';
+import passport from 'passport';
 const router= Router();
 const cartManagerDB= new cartsDB();
 const productManagerDB= new productsDB();
 
-const publicAccess= async(req,res, next)=>{
+const publicAccess= (req,res, next)=>{
     if(req.user != (null||undefined)){
         return res.redirect('/products') //si el usuario ya existe que vaya a ver su perfil
     }else{
         return next() //sino que se siga la ejecucion del flujo 
     };
 }
-const privateAccess= async(req,res, next)=>{
-    if(req.user == (null || undefined)){
-        console.log(req.user)
-        console.log('jaja caiste pt')
-        return res.redirect('/login') //si el usuario no existe que te redirija para que inicies sesion de vuelta
-    };
-
+const privateAccess= (req,res, next)=>{
+    if(req.user == (null||undefined))return res.redirect("/login");
     return next()
 }
 
 
-router.get('/products', privateAccess, async (req,res)=>{
+router.get('/products',passport.authenticate('jwt', {session:false}), privateAccess, async (req,res)=>{
     const page= Number(req.query.page)||1;
     const limit= Number(req.query.limit)||10;
     const query= req.query.query;
@@ -37,7 +33,7 @@ router.get('/products', privateAccess, async (req,res)=>{
         const nextLink= hasNextPage ? `/products?page=${nextPage}&limit=${limit}` : null;
         res.render('products', {products: docs, hasPrevPage, hasNextPage, nextPage, prevPage, nextLink, prevLink, user:req.user}); 
     } catch (error) {
-        console.log(error.message);
+        res.status(500).send({status:'error', error:error.message})
     }
 });
 
