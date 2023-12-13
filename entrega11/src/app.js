@@ -9,6 +9,7 @@ import productsRouter from './routes/products.router.js';
 import cartsRouter from './routes/carts.router.js';
 import { __dirname } from './utils.js';
 import { initializePassport } from './config/passport.config.js';
+import configs from './config.js';
 
 const app= express();
 app.use(express.json());
@@ -20,7 +21,7 @@ app.set('view engine', 'handlebars');
 app.use(cookieParser());
 
 try {
-    await mongoose.connect('mongodb+srv://candelaMena:Candemena07@coderhouse-candela-mena.fxqdqtk.mongodb.net/ecommerce?retryWrites=true&w=majority')
+    await mongoose.connect(configs.mongoUrl);
     console.log('DB connected');
 } catch (error) {
     console.log(error.message);
@@ -38,5 +39,4 @@ app.use(passport.initialize());
 
 
 
-const port= 8080;
-app.listen(port, ()=>console.log('server running'));
+app.listen(configs.port, ()=>console.log('server running'));

@@ -28,7 +28,7 @@ export default class CartsDB{
 
         if(some){
             const product= cart.products.find((p)=> p.product._id == productId)
-            product.quantity+1;
+            product.quantity++;
             const index= cart.products.findIndex((p)=> p.product._id == productId);
             cart.products[index]= product;
         }else{

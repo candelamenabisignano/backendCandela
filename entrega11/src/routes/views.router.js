@@ -4,9 +4,9 @@ import passport from "passport";
 
 const router= Router();
 
-router.get('/products', passport.authenticate('jwt', {session:false}),privateAccess,getProductsView());
-router.get('/carts/:cid', getCartView());
-router.get('/register', publicAccess, getRegisterView());
-router.get('/login', publicAccess, getLoginView());
+router.get('/products', passport.authenticate('jwt', {session:false}),privateAccess,getProductsView);
+router.get('/carts/:cid', getCartView);
+router.get('/register', publicAccess, getRegisterView);
+router.get('/login', publicAccess, getLoginView);
 
 export default router;

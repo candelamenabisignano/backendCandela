@@ -4,12 +4,12 @@ import {current,login,logout,register,getUsers,github,githubCallBack} from '../c
 
 const router= Router()
 
-router.get('/', getUsers());
-router.post('/register', register());
-router.post('/login', login());
-router.get('/current', passport.authenticate('jwt', {session:false}), current());
-router.get('/github', passport.authenticate('github', {scope:['user:email']}), github());
-router.get('/github-callback',passport.authenticate('github', {failureRedirect:'/login'}), githubCallBack());
-router.get('/logout', logout());
+router.get('/', getUsers);
+router.post('/register', register);
+router.post('/login', login)
+router.get('/current', passport.authenticate('jwt', {session:false}), current);
+router.get('/github', passport.authenticate('github', {scope:['user:email']}), github);
+router.get('/github-callback',passport.authenticate('github', {failureRedirect:'/login'}), githubCallBack);
+router.get('/logout', logout);
 
 export default router;

@@ -22,7 +22,7 @@ const register=async(req,res)=>{
         };
 
         await registerService({first_name:first_name, last_name:last_name, email: email, age:age, password:createHash(password), cart:cart, role:role});
-        res.status(201).send({status:'success', message:'user registered', payload: user});
+        res.status(201).send({status:'success', message:'user registered', payload: {first_name:first_name, last_name:last_name, email: email, age:age, password:createHash(password), cart:cart, role:role}});
     } catch (error) {
         res.status(500).send({status:'error', error:error.message});
     };
@@ -43,7 +43,7 @@ const login=async(req,res)=>{
 
         const token= generateToken(userToken);
 
-        res.cookie('tokenCookie', token, {maxAge:100*100*100, httpOnly:true}).send({status:'success', payload: user});
+        return res.cookie('tokenCookie', token, {maxAge:100*100*100, httpOnly:true}).send({status:'success', payload: user});
     
     } catch (error) {
         res.status(500).send({status:"error", error:error.message});
