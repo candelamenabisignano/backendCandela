@@ -21,7 +21,7 @@ router.get('/', async(req,res)=>{
     } catch (error) {
         res.status(400).send({status:'error', error:error.message});
     };
-});
+});//CHECK
 
 router.get('/:id', async(req,res)=>{
     const id= req.params.id;
@@ -33,7 +33,7 @@ router.get('/:id', async(req,res)=>{
     } catch (error) {
         res.status(400).send({status:'error', error:error.message});
     };
-});
+});//CHECK
 
 router.post('/', async(req,res)=>{
 
@@ -69,7 +69,7 @@ router.put('/:id', async(req,res)=>{
     } catch (error) {
         res.status(400).send({status:'error', error:error.message});
     };
-});
+});//CHECK
 
 router.delete('/:id', async(req,res)=>{
     const id=req.params.id;

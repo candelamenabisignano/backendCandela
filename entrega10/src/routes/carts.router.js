@@ -17,7 +17,7 @@ router.get('/', async(req,res)=>{
     } catch (error) {
         res.status(400).send({status:'error', error:error.message});
     };
-});
+});//CHECK
 
 router.get('/:cid', async(req,res)=>{
     const id= req.params.cid;
@@ -29,7 +29,7 @@ router.get('/:cid', async(req,res)=>{
     } catch (error) {
         res.status(400).send({status:'error', error:error.message});
     };
-});
+});//CHECK
 
 router.post('/', async(req,res)=>{
     const{product, quantity}=req.body;
@@ -40,7 +40,7 @@ router.post('/', async(req,res)=>{
     } catch (error) {
         res.status(400).send({status:'error', error:error.message});
     };
-});
+});//CHECK
 
 router.post('/:cid/product/:pid', async(req,res)=>{
     const cartId= req.params.cid;
@@ -52,7 +52,7 @@ router.post('/:cid/product/:pid', async(req,res)=>{
     } catch (error) {
         res.status(400).send({status:'error', error:error.message});
     }
-});
+});//CHECK
 
 router.put('/:cid', async(req,res)=>{
     const cartId=req.params.cid;
@@ -67,7 +67,7 @@ router.put('/:cid', async(req,res)=>{
     } catch (error) {
         res.status(400).send({status:'error', error:error.message});
     };
-});
+});//CHECK
 
 router.put('/:cid/products/:pid', async(req,res)=>{
     const cartId= req.params.cid;
