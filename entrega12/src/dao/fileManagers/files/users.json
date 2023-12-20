@@ -1,0 +1,23 @@
+[
+	{
+		"password": "$2b$10$7AQQu3umaPVemoc3nSzieu/I6rd7aF8WVkxQO6e0wWvzFy5AIhRUy",
+		"name": "Candela Mena",
+		"email": "lacolo@gmail.com",
+		"age": 18,
+		"cart": "23f5"
+	},
+	{
+		"password": "$2b$10$FvT2YWznpZ8g0dY8SPxhJeD6k/QeqYw3wFZgZfdZ7eUmK..i.2G1a",
+		"name": "Candela Mena",
+		"email": "lacolo007@gmail.com",
+		"age": 18,
+		"cart": "23f5"
+	},
+	{
+		"password": "$2b$10$wdzEg/lXgJSdxKacFTkDEevLpt6PvGDpKWUKFguSpzqAuMyqA3MnK",
+		"name": "Candela Mena",
+		"email": "lacolo2007@gmail.com",
+		"age": 18,
+		"cart": "23f5"
+	}
+]

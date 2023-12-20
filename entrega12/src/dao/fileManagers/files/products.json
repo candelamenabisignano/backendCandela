@@ -1,0 +1,15 @@
+[
+	{
+		"title": "Smartphone XS",
+		"description": "High-performance smartphone with advanced features.",
+		"code": "SMPHX001",
+		"price": 599.99,
+		"status": true,
+		"stock": 150,
+		"category": "Electronics",
+		"thumbnail": [
+			"smpX_image1.jpg"
+		],
+		"id": "x6s243"
+	}
+]
