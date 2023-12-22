@@ -1,22 +1,17 @@
 [
 	{
-		"password": "$2b$10$7AQQu3umaPVemoc3nSzieu/I6rd7aF8WVkxQO6e0wWvzFy5AIhRUy",
+		"password": "$2b$10$barXyVC41Y/iCn5Ybwpsl.CslpLk/CQOV62x2RE76l1bomD1HeSfO",
 		"name": "Candela Mena",
-		"email": "lacolo@gmail.com",
+		"email": "candee@gmail.com",
+		"role": "user",
 		"age": 18,
 		"cart": "23f5"
 	},
 	{
-		"password": "$2b$10$FvT2YWznpZ8g0dY8SPxhJeD6k/QeqYw3wFZgZfdZ7eUmK..i.2G1a",
+		"password": "$2b$10$c2L72agQDbKaxsn9PaVg1eeoNCF/UfTIoDlDt23.KJiAD3u.aVPPe",
 		"name": "Candela Mena",
-		"email": "lacolo007@gmail.com",
-		"age": 18,
-		"cart": "23f5"
-	},
-	{
-		"password": "$2b$10$wdzEg/lXgJSdxKacFTkDEevLpt6PvGDpKWUKFguSpzqAuMyqA3MnK",
-		"name": "Candela Mena",
-		"email": "lacolo2007@gmail.com",
+		"email": "candela@gmail.com",
+		"role": "admin",
 		"age": 18,
 		"cart": "23f5"
 	}

@@ -19,7 +19,6 @@ const addProduct=async(cartId,productId)=>{
                 "Content-type":"application/json"
             }
         });
-        console.log(data)
         return data;
     } catch (error) {
         console.log(error.message)

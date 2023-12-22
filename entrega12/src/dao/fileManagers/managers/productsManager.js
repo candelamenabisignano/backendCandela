@@ -1,4 +1,5 @@
 import fs from 'fs';
+import { v4 as uuidv4 } from 'uuid';
 export default class ProductsFS{
     constructor(path){
         this.path=path
@@ -16,17 +17,17 @@ export default class ProductsFS{
 
     getById= async (id)=>{
         const products= await this.get();
-        const find=products.find((p)=>p.id == JSON.stringify(id));
-        if(!find){
+        const find=products.find((p)=>p.id == id);
+        if(find === null || undefined){
             console.log(`no hemos encontrado el producto con el id ${id}`);
-        }else{
-            return find;
-        };   
+        }
+            
+        return find;
     };
 
-    add=async(product, id)=>{
+    add=async(product)=>{
             const products= await this.get();
-            product.id=id;
+            product.id=uuidv4()
 
             if(!product.title || !product.description || !product.code || !product.price || !product.stock || !product.category){
                 return console.log("falta un campo por completar")
@@ -60,7 +61,7 @@ export default class ProductsFS{
             };
 
             product= {...newProduct,id};
-            const productIndex=products.findIndex((p)=> p.id == id)
+            let productIndex=products.findIndex((p)=> p.id == id)
             products[productIndex]=product;
             await fs.promises.writeFile(this.path, JSON.stringify(products, null ,"\t"));
             return product;

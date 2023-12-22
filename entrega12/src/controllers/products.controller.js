@@ -1,6 +1,12 @@
 import configs from "../config.js";
-import { getProductService, getProductsService, addProductService, uptadeProductService, deleteProductService } from "../services/products.service.js";
+import { getProductService, getProductsService, addProductService, uptadeProductService, deleteProductService} from "../services/products.service.js";
+import { current } from "./sessions.controller.js";
 
+const handlePolicies = (policies) =>(req, res, next) => {
+    const user=req.user;
+    if(user.role != policies) return res.status(404).send({status:"error",error:"no policies"});
+    next();
+}
 
 const getProducts=async(req,res)=>{
     const pageQuery= Number(req.query.page)||1;
@@ -35,12 +41,12 @@ const getProduct=async(req,res)=>{
 
 const addProduct=async(req,res)=>{
     try {
-        const{title,description,code,price,status,stock,category,thumbnail, id}=req.body;
+        const{title,description,code,price,status,stock,category,thumbnail}=req.body;
 
-        if(!title||!description||!code||!price||!status||!stock||!category||!thumbnail|| !id){
+        if(!title||!description||!code||!price||!status||!stock||!category||!thumbnail){
             return res.status(400).send({status:'error', error:'incomplete campus'});
         };
-        const product=await addProductService({title,description,code,price,status,stock,category,thumbnail}, id);
+        const product=await addProductService({title,description,code,price,status,stock,category,thumbnail});
 
         res.status(201).send({status:'success', payload:product});
 
@@ -81,5 +87,6 @@ export{
     getProducts,
     addProduct,
     uptadeProduct,
-    deleteProduct
+    deleteProduct,
+    handlePolicies
 }

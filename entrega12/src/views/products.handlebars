@@ -4,11 +4,19 @@
     <h2>email:{{user.email}}</h2>
     <h2 class="cartId">cart id : {{user.cart}}</h2>
     {{#each products}}
+    {{#if persistence}}
     <li>
         <h3>{{this.title}}</h3>
         <h4>{{this.price}}</h4>
         <button class="addToCart" id={{this._id}}>add to cart</button>
     </li>
+    {{else}}
+        <li>
+        <h3>{{this.title}}</h3>
+        <h4>{{this.price}}</h4>
+        <button class="addToCart" id={{this.id}}>add to cart</button>
+    </li>
+    {{/if}}
     {{/each}}
     {{#if hasPrevPage}}
     <a href={{prevLink}}><button>anterior</button></a>

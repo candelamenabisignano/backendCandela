@@ -1,4 +1,5 @@
-import {getCartsService,getCartService,addCartService,addToCartService,uptadeCartService,uptadeProductQuantityService,deleteCartService,deleteProductFromCartService} from '../services/carts.service.js';
+import {getCartsService,getCartService,addCartService,addToCartService,uptadeCartService,uptadeProductQuantityService,deleteCartService,deleteProductFromCartService, endPurchaseService} from '../services/carts.service.js';
+import { getProductService } from '../services/products.service.js';
 
 const getCarts=async(req,res)=>{
     try {
@@ -20,11 +21,11 @@ const getCart=async(req,res)=>{
 };
 
 const addCart=async(req,res)=>{
-    const{product, quantity, id}=req.body;
+    const{product, quantity}=req.body;
     try {
 
-        if(!product || !quantity || !id) return res.status(400).send({status:"error", error:"campus incomplete"})
-        const cart= await addCartService(product, quantity,id);
+        if(!product || !quantity ) return res.status(400).send({status:"error", error:"campus incomplete"})
+        const cart= await addCartService(product, quantity);
         res.status(201).send({status:'success', payload:cart});
     } catch (error) {
         res.status(400).send({status:'error', error:error.message});
@@ -49,7 +50,7 @@ const uptadeCart=async(req,res)=>{
         if(!products){
             return res.status(400).send({status:'error', error:'incomplete campus'});
         };
-        const cart= await uptadeCartService(cartId, products);
+        const cart= await uptadeCartService(cartId, {...req.body,id:cartId});
         res.status(200).send({status:'success', payload:cart});
 
     } catch (error) {
@@ -97,6 +98,17 @@ const deleteProductFromCart= async(req,res)=>{
     };
 };
 
+const endPurchase = async(req,res)=>{
+    const {cid}= req.params;
+    try {
+        const purchase= await endPurchaseService(cid,req.user);
+        console.log(purchase)
+        return res.send({status:'success', payload:purchase})
+    } catch (error) {
+        return res.status(400).send({status:'error', error:error.message}); 
+    }
+}
+
 export{
     getCarts,
     getCart,
@@ -105,5 +117,6 @@ export{
     uptadeCart,
     uptadeProductQuantity,
     deleteCart,
-    deleteProductFromCart
+    deleteProductFromCart,
+    endPurchase
 };

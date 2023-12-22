@@ -1,0 +1,10 @@
+<h1>CHAT</h1>
+{{#if isUser}}
+<input type="text" placeholder="escribe tu mensaje aqui ..." id="messageInput"/>
+<button id="sendMessage">send</button>
+{{else}}
+<h1>no tienes permisos para enviar mensajes al chat</h1>
+{{/if}}
+<div id="messagesContainer"></div>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/chat.js"></script>

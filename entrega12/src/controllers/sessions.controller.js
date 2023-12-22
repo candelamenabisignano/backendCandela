@@ -20,6 +20,10 @@ const register=async(req,res)=>{
             return res.status(400).send({status:'error', error:'an user has already registered with this email'});
         };
 
+        if(!first_name || !last_name || !email ||!age ||!password ||!cart ||!role){
+            return res.status(400).send({status:'error', error:"campus incomplete"})
+        }
+
         await registerService({first_name:first_name, last_name:last_name, email: email, age:age, password:createHash(password), cart:cart, role:role});
         return res.status(201).send({status:'success', message:'user registered', payload: {first_name:first_name, last_name:last_name, email: email, age:age, password:createHash(password), cart:cart, role:role}});
     } catch (error) {
@@ -49,13 +53,14 @@ const login=async(req,res)=>{
     };
 };
 
-const current=async(req,res)=>{
+const current=(req,res)=>{
     try {
         if(req.user === (undefined || null)){
             return res.status(400).send({status:'error', error:"user not found"});
         };
+        console.log(req.user)
         req.user= req.user;
-        res.status(200).send({status:'success', payload:req.user});
+        return res.send({status:'success', payload:req.user});
     } catch (error) {
         res.status(500).send({status:'error', error:error.message});
     };

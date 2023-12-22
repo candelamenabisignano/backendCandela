@@ -14,8 +14,8 @@ const getProductService= async(id)=>{
     const product= await manager.getByIdRepository(id);
     return product;
 };
-const addProductService=async(product,id)=>{
-    const newProduct= configs.persistence === "FS" ? await manager.addRepository(product, id) : await manager.addRepository(product);
+const addProductService=async(product)=>{
+    const newProduct=  await manager.addRepository(product)
     return newProduct;
 };
 const uptadeProductService=async(id, product)=>{

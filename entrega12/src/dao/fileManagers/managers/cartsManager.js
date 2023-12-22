@@ -1,6 +1,7 @@
 import fs from 'fs';
 import ProductsFS from "../managers/productsManager.js";
 import { __dirname } from '../../../utils.js';
+import {v4 as uuidv4} from 'uuid'
 
 const pmanager= new ProductsFS(`${__dirname}/dao/fileManagers/files/products.json`)
 export default class CartsFS{
@@ -21,15 +22,15 @@ export default class CartsFS{
 
     getById=async(id)=>{
         const carts= await this.get();
-        const find=carts.find((p)=>p.id === id);
+        const find=carts.find((c)=>c.id === id);
         return find;
     };
 
-    add= async(productBody, quantityBody, id)=>{
+    add= async(productBody, quantityBody)=>{
         const carts= await this.get();
-        const products= await pmanager.get();
-        const product=products.find((p)=> p.id == productBody);
-        carts.push({products: [{product: productBody, quantity: quantityBody}], id:id});
+        const product=await pmanager.getById(productBody);
+        console.log(product)
+        carts.push({products: [{product: product, quantity: quantityBody}], id:uuidv4()});
         console.log(carts)
         await fs.promises.writeFile(this.path, JSON.stringify(carts, null, "\t"));
         return carts;
@@ -38,15 +39,16 @@ export default class CartsFS{
     addToCart= async(cartId, productId)=>{
         const cart= await this.getById(cartId);
         const carts= await this.get();
-        const some= cart.products.some((p)=> p.product == productId);
+        const some= cart.products.some((p)=> p.product.id == productId);
         console.log(some)
         if(!some){
-            cart.products.push({product:productId, quantity:1});
+            const productito= await pmanager.getById(productId)
+            cart.products.push({product:productito, quantity:1});
             const index= carts.findIndex((c)=> c.id == cartId);
             carts[index]=cart;
             await fs.promises.writeFile(this.path, JSON.stringify(carts, null, "\t"));
         }else{
-            let productito= cart.products.find((p)=> p.product == productId);
+            let productito= cart.products.find((p)=> p.product.id == productId);
             productito= {...productito, quantity:productito.quantity+=1}
             const index= carts.findIndex((c)=> c.id == cartId);
             carts[index]=cart;
@@ -76,18 +78,22 @@ export default class CartsFS{
     };
 
     uptade=async(cartId, newCart)=>{
-        const cart= await this.getById(cartId);
-        cart.products=newCart;
+        let cart= await this.getById(cartId);
+        cart=newCart;
+        newCart.products.forEach(async(p,i)=>{
+            const product=await pmanager.getById(p.product)
+            newCart.products[i].product= product;
+        })
         const carts= await this.get();
         const cartIndex= carts.findIndex((c)=> c.id == cartId);
-        carts[cartIndex]=cart
+        carts[cartIndex]=cart;
         await fs.promises.writeFile(this.path, JSON.stringify(carts, null, "\t"));
-        return cart;
+        return carts;
     };
 
     uptadeQuantity=async(cartId, productId, quantity)=>{
         const cart= await this.getById(cartId);
-        const product=cart.products.find((p)=> p.product == productId);
+        const product=cart.products.find((p)=> p.product.id == productId);
         product.quantity+=quantity;
         const carts= await this.get();
         await fs.promises.writeFile(this.path, JSON.stringify(carts, null, "\t"));

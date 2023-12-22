@@ -13,8 +13,8 @@ export default class ProductsRepository{
         return product;
     };
 
-    addRepository=async(product,id)=>{
-        const newProduct= configs.persistence === "FS" ? await this.dao.add(product,id) : await this.dao.add(product);
+    addRepository=async(product)=>{
+        const newProduct=  await this.dao.add(product)
         return newProduct;
     };
 
