@@ -2,7 +2,7 @@ import { Carts, Products } from "../dao/factory.js";
 import configs from "../config.js";
 import CartsRepository from "../repository/carts.repository.js";
 import { __dirname } from "../utils.js";
-import {  uptadeProductService } from "./products.service.js";
+import { uptadeProductService } from "./products.service.js";
 import { createTicketService } from "./tickets.service.js";
 
 const CartsDao =
@@ -53,21 +53,26 @@ const deleteProductFromCartService = async (cid, pid) => {
 let amount = 0;
 const outStock = [];
 const endPurchaseService = async (cid, user) => {
-    const cart=await manager.getByIdRepository(cid);
+  const cart = await manager.getByIdRepository(cid);
 
-    cart.products.forEach(async({product,quantity}) => {
-        if(product.stock>=quantity){
-            amount+=product.price*quantity;
-            let newOne={...product,stock:product.stock-quantity};
-            console.log(newOne)
-            await uptadeProductService(product.id, newOne);
-        }else{
-            outStock.push({product,quantity})
-        };
-    });
-    const newCart= await manager.uptadeRepository(cid,{products:outStock, id:cid});
-    const ticket= await createTicketService(user,amount);
-    return (outStock.length === 0 ? {ticket:ticket} :  {ticket:ticket,cart:newCart})
+  cart.products.forEach(async ({ product, quantity }) => {
+    if (product.stock >= quantity) {
+      amount += product.price * quantity;
+      let newOne = { ...product, stock: product.stock - quantity };
+      console.log(newOne);
+      await uptadeProductService(product.id, newOne);
+    } else {
+      outStock.push({ product, quantity });
+    }
+  });
+  const newCart = await manager.uptadeRepository(cid, {
+    products: outStock,
+    id: cid,
+  });
+  const ticket = await createTicketService(user, amount);
+  return outStock.length === 0
+    ? { ticket: ticket }
+    : { ticket: ticket, cart: newCart };
 };
 
 export {

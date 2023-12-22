@@ -1,5 +1,3 @@
-
-
 const formLogin = document.body.querySelector("#loginForm");
 
 formLogin.addEventListener("submit", async (e) => {
@@ -26,7 +24,7 @@ formLogin.addEventListener("submit", async (e) => {
 
     if (!exists) {
       return window.location.replace("/login");
-    };
+    }
 
     const login = await fetch("/api/sessions/login", {
       method: "POST",
@@ -37,7 +35,7 @@ formLogin.addEventListener("submit", async (e) => {
     });
 
     if (login.status != 200) {
-      return window.location.replace('/login')
+      return window.location.replace("/login");
     }
 
     const reqUser = await fetch("/api/sessions/current", {
@@ -47,14 +45,13 @@ formLogin.addEventListener("submit", async (e) => {
       },
     });
 
-    const reqUserJson= await reqUser.json();
+    const reqUserJson = await reqUser.json();
 
-
-    if(reqUser.status == 200){
-        console.log(reqUserJson);
-        window.location.replace('/products');
-    }else{
-        window.location.replace('/login')
+    if (reqUser.status == 200) {
+      console.log(reqUserJson);
+      window.location.replace("/products");
+    } else {
+      window.location.replace("/login");
     }
 
     // if(reqUser.status === 200){

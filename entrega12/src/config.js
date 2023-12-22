@@ -1,14 +1,14 @@
-import dotenv from 'dotenv';
+import dotenv from "dotenv";
 
 dotenv.config();
 
-const configs={
-    port:process.env.PORT,
-    mongoUrl: process.env.MONGO_URL,
-    privateKey:process.env.PRIVATE_KEY,
-    clientId:process.env.CLIENT_ID,
-    clientSecret:process.env.CLIENT_SECRET,
-    persistence:process.env.PERSISTENCE
+const configs = {
+  port: process.env.PORT,
+  mongoUrl: process.env.MONGO_URL,
+  privateKey: process.env.PRIVATE_KEY,
+  clientId: process.env.CLIENT_ID,
+  clientSecret: process.env.CLIENT_SECRET,
+  persistence: process.env.PERSISTENCE,
 };
 
 export default configs;
