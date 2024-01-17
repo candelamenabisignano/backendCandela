@@ -1,0 +1,18 @@
+[
+	{
+		"password": "$2b$10$barXyVC41Y/iCn5Ybwpsl.CslpLk/CQOV62x2RE76l1bomD1HeSfO",
+		"name": "Candela Mena",
+		"email": "candee@gmail.com",
+		"role": "user",
+		"age": 18,
+		"cart": "23f5"
+	},
+	{
+		"password": "$2b$10$c2L72agQDbKaxsn9PaVg1eeoNCF/UfTIoDlDt23.KJiAD3u.aVPPe",
+		"name": "Candela Mena",
+		"email": "candela@gmail.com",
+		"role": "admin",
+		"age": 18,
+		"cart": "23f5"
+	}
+]

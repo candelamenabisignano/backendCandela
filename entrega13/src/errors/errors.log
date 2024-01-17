@@ -1,0 +1,11 @@
+{"level":"debug","message":"prueba debug"}
+{"level":"http","message":"prueba http"}
+{"level":"info","message":"prueba info"}
+{"level":"warning","message":"prueba warn"}
+{"level":"error","message":"prueba error"}
+{"level":"debug","message":"prueba debug"}
+{"level":"http","message":"prueba http"}
+{"level":"info","message":"prueba info"}
+{"level":"warning","message":"prueba warn"}
+{"level":"error","message":"prueba error"}
+{"level":"error","message":"cart not found"}

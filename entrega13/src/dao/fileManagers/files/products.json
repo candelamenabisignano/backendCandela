@@ -1,0 +1,80 @@
+[
+	{
+		"title": "Smartphone X25",
+		"description": "High-performance smartphone with advanced features.",
+		"code": "SMPHX001",
+		"price": 599.99,
+		"status": true,
+		"stock": 140,
+		"category": "Electronics",
+		"thumbnail": [
+			"smpX_image1.jpg"
+		],
+		"id": "x6s243"
+	},
+	{
+		"title": "Smartphone XSS",
+		"description": "High-performance smartphone with advanced features.",
+		"code": "SMPHX01",
+		"price": 599.99,
+		"status": true,
+		"stock": 135,
+		"category": "Electronics",
+		"thumbnail": [
+			"smpX_image1.jpg"
+		],
+		"id": "20sd25"
+	},
+	{
+		"title": "Tablet SD50",
+		"description": "High-performance smartphone with advanced features.",
+		"code": "TBLT-233",
+		"price": 599.99,
+		"status": true,
+		"stock": 108,
+		"category": "Electronics",
+		"thumbnail": [
+			"smpX_image1.jpg"
+		],
+		"id": "9yhd3"
+	},
+	{
+		"title": "Tablet XS",
+		"description": "High-performance smartphone with advanced features.",
+		"code": "TBLT-XS",
+		"price": 599.99,
+		"status": true,
+		"stock": 110,
+		"category": "Electronics",
+		"thumbnail": [
+			"smpX_image1.jpg"
+		],
+		"id": "00fex"
+	},
+	{
+		"title": "chicle boobaloo",
+		"description": "chicle con alta mascabilidad",
+		"code": "CH-321",
+		"price": 2.58,
+		"status": true,
+		"stock": 1,
+		"category": "Foods",
+		"thumbnail": [
+			"chicle.png"
+		],
+		"id": "f0cb5428-51ce-480c-9b9a-79d37bbb5b7d"
+	},
+	{
+		"title": "chicle boobaloo",
+		"description": "chicle con alta mascabilidad",
+		"code": "CH-321",
+		"price": 2.58,
+		"status": true,
+		"stock": 3,
+		"category": "Foods",
+		"thumbnail": [
+			"chicle.png"
+		],
+		"id": "1b0d795e-176b-4f15-a235-11b2e98fe152"
+	}
+]
