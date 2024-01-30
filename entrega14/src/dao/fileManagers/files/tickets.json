@@ -1,0 +1,236 @@
+[
+	{
+		"code": "8db602cd-f8be-46d2-8337-7fb9cae2c49b",
+		"purchase_datetime": "22/12/2023, 17:17:44",
+		"amount": 0,
+		"purchaser": "candee@gmail.com"
+	},
+	{
+		"code": "309f4626-2d05-49bf-95ac-951251369d39",
+		"purchase_datetime": "22/12/2023, 17:18:28",
+		"amount": 0,
+		"purchaser": "candee@gmail.com"
+	},
+	{
+		"code": "caa73035-1a4a-43da-82b8-0f958b8cd282",
+		"purchase_datetime": "22/12/2023, 17:20:04",
+		"amount": 0,
+		"purchaser": "candee@gmail.com"
+	},
+	{
+		"code": "cf55e859-d018-46c5-8841-75940bfd7018",
+		"purchase_datetime": "22/12/2023, 17:21:17",
+		"amount": 0,
+		"purchaser": "candee@gmail.com"
+	},
+	{
+		"code": "708a2940-44fb-41be-b4fe-80a01b8d7dd5",
+		"purchase_datetime": "22/12/2023, 17:22:13",
+		"amount": 0,
+		"purchaser": "candee@gmail.com"
+	},
+	{
+		"code": "8ad5c29c-a664-494e-bec9-269dbbcaea91",
+		"purchase_datetime": "22/12/2023, 17:22:38",
+		"amount": 0,
+		"purchaser": "candee@gmail.com"
+	},
+	{
+		"code": "f7d87218-1f94-4e62-b145-05286889e700",
+		"purchase_datetime": "22/12/2023, 17:25:58",
+		"amount": 0,
+		"purchaser": "candee@gmail.com"
+	},
+	{
+		"code": "9bdc6030-5cfc-4191-a1e8-853823156797",
+		"purchase_datetime": "22/12/2023, 17:26:15",
+		"amount": 0,
+		"purchaser": "candee@gmail.com"
+	},
+	{
+		"code": "314d2200-f598-4927-bd5d-04a2534d4a5a",
+		"purchase_datetime": "22/12/2023, 17:27:25",
+		"amount": 0,
+		"purchaser": "candee@gmail.com"
+	},
+	{
+		"code": "ee8ace5e-e788-476d-896d-6f543ee913fb",
+		"purchase_datetime": "22/12/2023, 17:45:31",
+		"amount": 0,
+		"purchaser": "candee@gmail.com"
+	},
+	{
+		"code": "db411fa0-dda6-43ba-8450-8ff63a874a77",
+		"purchase_datetime": "22/12/2023, 17:46:33",
+		"amount": 0,
+		"purchaser": "candee@gmail.com"
+	},
+	{
+		"code": "6fe89799-5f67-439c-bf35-f554c0ed5887",
+		"purchase_datetime": "22/12/2023, 17:47:01",
+		"amount": 0,
+		"purchaser": "candee@gmail.com"
+	},
+	{
+		"code": "20c24cd1-f44c-430f-bac2-0473ef506956",
+		"purchase_datetime": "22/12/2023, 17:48:29",
+		"amount": 0,
+		"purchaser": "candee@gmail.com"
+	},
+	{
+		"code": "bdbdf68f-5575-4383-a039-9e6d36694059",
+		"purchase_datetime": "22/12/2023, 17:49:34",
+		"amount": 0,
+		"purchaser": "candee@gmail.com"
+	},
+	{
+		"code": "812ad781-cf6f-41b7-9bc1-692ac6a74436",
+		"purchase_datetime": "22/12/2023, 17:50:50",
+		"amount": 0,
+		"purchaser": "candee@gmail.com"
+	},
+	{
+		"code": "51be93a1-43e1-41ea-a87f-67d9f57135a9",
+		"purchase_datetime": "22/12/2023, 17:51:52",
+		"amount": 0,
+		"purchaser": "candee@gmail.com"
+	},
+	{
+		"code": "6c932e63-a048-4603-8c75-8f7d81695535",
+		"purchase_datetime": "22/12/2023, 17:53:28",
+		"amount": 0,
+		"purchaser": "candee@gmail.com"
+	},
+	{
+		"code": "738a4de9-a124-4207-bff9-7d6d49d86b4c",
+		"purchase_datetime": "22/12/2023, 17:54:35",
+		"amount": 1799.97,
+		"purchaser": "candee@gmail.com"
+	},
+	{
+		"code": "f72a2a76-288f-4679-a09e-c8f5b9ee4213",
+		"purchase_datetime": "22/12/2023, 17:59:07",
+		"amount": 0,
+		"purchaser": "candee@gmail.com"
+	},
+	{
+		"code": "cd041a0b-a05a-42f8-8ca4-3ce65071b53a",
+		"purchase_datetime": "22/12/2023, 18:00:48",
+		"amount": 2399.96,
+		"purchaser": "candee@gmail.com"
+	},
+	{
+		"code": "1a4d3975-b107-47c8-98f7-14eb16100237",
+		"purchase_datetime": "22/12/2023, 18:06:24",
+		"amount": 1799.97,
+		"purchaser": "candee@gmail.com"
+	},
+	{
+		"code": "1b20e0a4-6f48-4f37-9b6b-92733f2fa667",
+		"purchase_datetime": "22/12/2023, 18:10:47",
+		"amount": 2399.96,
+		"purchaser": "candee@gmail.com"
+	},
+	{
+		"code": "e1a3af8c-23f1-4d29-9135-c81fa84afd19",
+		"purchase_datetime": "22/12/2023, 18:17:52",
+		"amount": 4199.93,
+		"purchaser": "candee@gmail.com"
+	},
+	{
+		"code": "941f5c8b-a9f4-47be-884f-6d43362af5ff",
+		"purchase_datetime": "22/12/2023, 19:31:28",
+		"amount": 4799.92,
+		"purchaser": "candee@gmail.com"
+	},
+	{
+		"code": "a823e491-781a-4d9e-a3b5-4623fbdd7e9c",
+		"purchase_datetime": "22/12/2023, 19:57:12",
+		"amount": 1199.98,
+		"purchaser": "candee@gmail.com"
+	},
+	{
+		"code": "48486024-d363-4bc5-b7e0-4fa40f670444",
+		"purchase_datetime": "22/12/2023, 20:00:02",
+		"amount": 1199.98,
+		"purchaser": "candee@gmail.com"
+	},
+	{
+		"code": "c63ffa90-10db-4837-bfb6-8ddf833d26e0",
+		"purchase_datetime": "22/12/2023, 20:01:53",
+		"amount": 599.99,
+		"purchaser": "candee@gmail.com"
+	},
+	{
+		"code": "e0612d97-b261-428b-bd0c-65895675e3c1",
+		"purchase_datetime": "22/12/2023, 20:02:42",
+		"amount": 599.99,
+		"purchaser": "candee@gmail.com"
+	},
+	{
+		"code": "8878fc80-dc59-4750-80c8-14f2a5da5abe",
+		"purchase_datetime": "22/12/2023, 20:03:37",
+		"amount": 1199.98,
+		"purchaser": "candee@gmail.com"
+	},
+	{
+		"code": "313f1109-11e6-46da-88fc-52ce456aefbf",
+		"purchase_datetime": "22/12/2023, 20:04:42",
+		"amount": 2399.96,
+		"purchaser": "candee@gmail.com"
+	},
+	{
+		"code": "de9a5f24-6f47-4a7a-9c9e-3bbd516b1693",
+		"purchase_datetime": "22/12/2023, 20:07:57",
+		"amount": 2399.96,
+		"purchaser": "candee@gmail.com"
+	},
+	{
+		"code": "ff034d0f-5d0e-4715-b302-eb74a8d6688e",
+		"purchase_datetime": "22/12/2023, 20:09:59",
+		"amount": 2399.96,
+		"purchaser": "candee@gmail.com"
+	},
+	{
+		"code": "f6b4e97e-4ca0-412e-bb0b-3c12004174c1",
+		"purchase_datetime": "22/12/2023, 20:12:05",
+		"amount": 2399.96,
+		"purchaser": "candee@gmail.com"
+	},
+	{
+		"code": "3c1dece5-e85e-4979-af76-97df1de80001",
+		"purchase_datetime": "22/12/2023, 20:16:48",
+		"amount": 2399.96,
+		"purchaser": "candee@gmail.com"
+	},
+	{
+		"code": "056b9f90-f786-4a04-8b00-3d5f2380c9dc",
+		"purchase_datetime": "22/12/2023, 20:18:24",
+		"amount": 2399.96,
+		"purchaser": "candee@gmail.com"
+	},
+	{
+		"code": "58df9a1d-9ca7-4c05-a587-48cafe8c6fcc",
+		"purchase_datetime": "22/12/2023, 20:23:10",
+		"amount": 2399.96,
+		"purchaser": "candee@gmail.com"
+	},
+	{
+		"code": "19386229-21e3-4579-be7f-b16f9bf473fa",
+		"purchase_datetime": "22/12/2023, 20:27:23",
+		"amount": 2399.96,
+		"purchaser": "candee@gmail.com"
+	},
+	{
+		"code": "04640c95-fd1e-41a3-aec2-7b3611873b2c",
+		"purchase_datetime": "22/12/2023, 20:29:58",
+		"amount": 2399.96,
+		"purchaser": "candee@gmail.com"
+	},
+	{
+		"code": "9894c41c-f5ab-4141-9450-e34b86119180",
+		"purchase_datetime": "22/12/2023, 20:32:35",
+		"amount": 2399.96,
+		"purchaser": "candee@gmail.com"
+	}
+]
