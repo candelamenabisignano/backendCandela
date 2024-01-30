@@ -33,7 +33,7 @@ const register = async (req, res) => {
     const { first_name, last_name, email, age, password, cart, role } = req.body;
     const user = await getUserByEmailService(email);
     req.logger.info(user)
-    if (user !== null) {
+    if (user != null) {
       req.logger.error("an user has already registered with this email")
       return res
         .status(400)
@@ -93,12 +93,12 @@ const login = async (req, res) => {
     req.logger.info(user);
     req.logger.info(password);
 
-    if (user === null || user === undefined) {
+    if ((user == null) || (user == undefined)) {
       req.logger.error('invalid credentials')
-      return res.status(401).send({ status: "error", error: "invalid credentials" });
+      return res.status(405).send({ status: "error", error: "invalid credentials" });
     };
-
-    if(!isValid(password, user.password)){
+    
+    if(isValid(password, user.password) === false){
       req.logger.error('invalid credentials')
       return res.status(401).send({ status: "error", error: "invalid credentials" });
     }

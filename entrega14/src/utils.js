@@ -18,11 +18,10 @@ const generateToken = (user) => {
   return token;
 };
 
-const createHash = (password) =>
-  bcrypt.hashSync(password, bcrypt.genSaltSync(10));
+const createHash = (password) => bcrypt.hashSync(password, bcrypt.genSaltSync(10));
 
 const isValid = (plainPassword, hashedPassword) => {
-  return bcrypt.compareSync(hashedPassword, plainPassword);
+  return bcrypt.compareSync(plainPassword, hashedPassword);
 };
 
 export { __dirname, createHash, isValid, generateToken, PRIVATE_KEY };

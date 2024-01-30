@@ -314,3 +314,141 @@
 {"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$w0hdEPG8qUyzsZTgdXivju07jzN9ezDgy3G4vg.bD7BRZ6Cly9UoO","role":"user"}}
 {"level":"info","message":"2233"}
 {"level":"error","message":"invalid credentials"}
+{"level":"info"}
+{"level":"error","message":"an user has already registered with this email"}
+{"level":"info"}
+{"level":"error","message":"an user has already registered with this email"}
+{"level":"info"}
+{"level":"error","message":"an user has already registered with this email"}
+{"level":"info"}
+{"level":"error","message":"an user has already registered with this email"}
+{"level":"info"}
+{"level":"error","message":"an user has already registered with this email"}
+{"level":"info"}
+{"level":"error","message":"an user has already registered with this email"}
+{"level":"info"}
+{"level":"error","message":"an user has already registered with this email"}
+{"level":"info"}
+{"level":"error","message":"an user has already registered with this email"}
+{"level":"info"}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":{"age":"3","cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","id":"7e639448-d096-4cd1-b7d1-47be7121890f","name":"valentino Mena","password":"$2b$10$j6zT6NFbf6eIKNJsJvIlWejUD2AQJp2K5tUiHTY8T3SfujGHfrIQ6"}}
+{"level":"info","message":"1234"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":"3","cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","id":"7e639448-d096-4cd1-b7d1-47be7121890f","name":"valentino Mena","password":"$2b$10$j6zT6NFbf6eIKNJsJvIlWejUD2AQJp2K5tUiHTY8T3SfujGHfrIQ6"}}
+{"level":"info","message":"1234"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info"}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman2199@gmail.com","id":"ae9f6add-12f5-4f7d-80a6-3d2f24e76515","name":"Valentino Mena","password":"$2b$10$RvLnpEB1Uk0bTJjcQ0pwougLZ8.3.H8OBwAum1Fku7JhMrb/oOsIu","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman2199@gmail.com","id":"ae9f6add-12f5-4f7d-80a6-3d2f24e76515","name":"Valentino Mena","password":"$2b$10$RvLnpEB1Uk0bTJjcQ0pwougLZ8.3.H8OBwAum1Fku7JhMrb/oOsIu","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman2199@gmail.com","id":"ae9f6add-12f5-4f7d-80a6-3d2f24e76515","name":"Valentino Mena","password":"$2b$10$RvLnpEB1Uk0bTJjcQ0pwougLZ8.3.H8OBwAum1Fku7JhMrb/oOsIu","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman2199@gmail.com","id":"ae9f6add-12f5-4f7d-80a6-3d2f24e76515","name":"Valentino Mena","password":"$2b$10$RvLnpEB1Uk0bTJjcQ0pwougLZ8.3.H8OBwAum1Fku7JhMrb/oOsIu","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman2199@gmail.com","id":"ae9f6add-12f5-4f7d-80a6-3d2f24e76515","name":"Valentino Mena","password":"$2b$10$RvLnpEB1Uk0bTJjcQ0pwougLZ8.3.H8OBwAum1Fku7JhMrb/oOsIu","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":"3","cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","id":"7e639448-d096-4cd1-b7d1-47be7121890f","name":"valentino Mena","password":"$2b$10$j6zT6NFbf6eIKNJsJvIlWejUD2AQJp2K5tUiHTY8T3SfujGHfrIQ6"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":{"age":"3","cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","id":"7e639448-d096-4cd1-b7d1-47be7121890f","name":"valentino Mena","password":"$2b$10$j6zT6NFbf6eIKNJsJvIlWejUD2AQJp2K5tUiHTY8T3SfujGHfrIQ6"}}
+{"level":"info","message":"Candemena07"}
+{"level":"info"}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"88@gmail.com","id":"0eb198aa-ae6e-470e-8eda-e8a88807664b","name":"Valentino Mena","password":"$2b$10$RIfq4fhehGp60ryvNR7z.OImFPuXT2pVymOVKt/qMx9AOXqH4JLnS","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":false}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"88@gmail.com","id":"0eb198aa-ae6e-470e-8eda-e8a88807664b","name":"Valentino Mena","password":"$2b$10$RIfq4fhehGp60ryvNR7z.OImFPuXT2pVymOVKt/qMx9AOXqH4JLnS","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":false}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"88@gmail.com","id":"0eb198aa-ae6e-470e-8eda-e8a88807664b","name":"Valentino Mena","password":"$2b$10$RIfq4fhehGp60ryvNR7z.OImFPuXT2pVymOVKt/qMx9AOXqH4JLnS","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":false}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"88@gmail.com","id":"0eb198aa-ae6e-470e-8eda-e8a88807664b","name":"Valentino Mena","password":"$2b$10$RIfq4fhehGp60ryvNR7z.OImFPuXT2pVymOVKt/qMx9AOXqH4JLnS","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":false}
+{"level":"error","message":"invalid credentials"}
+{"level":"info"}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"888@gmail.com","id":"b28e95a3-bfb3-40b8-8011-424c8a042db8","name":"Valentino Mena","password":"$2b$10$bZfpZnNx7QhXTLMsVMfJsu4ZHFhm57SciCDdbvy2NQTkXl4D/qoVi","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":false}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"888@gmail.com","id":"b28e95a3-bfb3-40b8-8011-424c8a042db8","name":"Valentino Mena","password":"$2b$10$bZfpZnNx7QhXTLMsVMfJsu4ZHFhm57SciCDdbvy2NQTkXl4D/qoVi","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":false}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"888@gmail.com","id":"b28e95a3-bfb3-40b8-8011-424c8a042db8","name":"Valentino Mena","password":"$2b$10$bZfpZnNx7QhXTLMsVMfJsu4ZHFhm57SciCDdbvy2NQTkXl4D/qoVi","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":false}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"888@gmail.com","id":"b28e95a3-bfb3-40b8-8011-424c8a042db8","name":"Valentino Mena","password":"$2b$10$bZfpZnNx7QhXTLMsVMfJsu4ZHFhm57SciCDdbvy2NQTkXl4D/qoVi","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":false}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"888@gmail.com","id":"b28e95a3-bfb3-40b8-8011-424c8a042db8","name":"Valentino Mena","password":"$2b$10$bZfpZnNx7QhXTLMsVMfJsu4ZHFhm57SciCDdbvy2NQTkXl4D/qoVi","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":false}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"888@gmail.com","id":"b28e95a3-bfb3-40b8-8011-424c8a042db8","name":"Valentino Mena","password":"$2b$10$bZfpZnNx7QhXTLMsVMfJsu4ZHFhm57SciCDdbvy2NQTkXl4D/qoVi","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":false}
+{"level":"error","message":"invalid credentials"}
+{"level":"info"}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"8888@gmail.com","id":"3a59827d-bcc9-4335-80f8-7d2930dbba46","name":"Valentino Mena","password":"$2b$10$P/niH27S0PWTpdYRIr3byOTDpmuxo5u1.SyOlfzwmCvxk74HKxbdy","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":false}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"8888@gmail.com","id":"3a59827d-bcc9-4335-80f8-7d2930dbba46","name":"Valentino Mena","password":"$2b$10$P/niH27S0PWTpdYRIr3byOTDpmuxo5u1.SyOlfzwmCvxk74HKxbdy","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":false}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"8888@gmail.com","id":"3a59827d-bcc9-4335-80f8-7d2930dbba46","name":"Valentino Mena","password":"$2b$10$P/niH27S0PWTpdYRIr3byOTDpmuxo5u1.SyOlfzwmCvxk74HKxbdy","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":false}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"8888@gmail.com","id":"3a59827d-bcc9-4335-80f8-7d2930dbba46","name":"Valentino Mena","password":"$2b$10$P/niH27S0PWTpdYRIr3byOTDpmuxo5u1.SyOlfzwmCvxk74HKxbdy","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":false}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"8888@gmail.com","id":"3a59827d-bcc9-4335-80f8-7d2930dbba46","name":"Valentino Mena","password":"$2b$10$P/niH27S0PWTpdYRIr3byOTDpmuxo5u1.SyOlfzwmCvxk74HKxbdy","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":false}
+{"level":"error","message":"invalid credentials"}
+{"level":"info"}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"88888@gmail.com","id":"071ed43f-28a4-4026-9c56-f95ddca17e8f","name":"Valentino Mena","password":"$2b$10$Q1w8CTbPeN2x5ow56BvtfOvc4Ya4NsQUfhCCiAqQW4wX8K6MZIDxi","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":false}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"88888@gmail.com","id":"071ed43f-28a4-4026-9c56-f95ddca17e8f","name":"Valentino Mena","password":"$2b$10$Q1w8CTbPeN2x5ow56BvtfOvc4Ya4NsQUfhCCiAqQW4wX8K6MZIDxi","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":false}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"88888@gmail.com","id":"071ed43f-28a4-4026-9c56-f95ddca17e8f","name":"Valentino Mena","password":"$2b$10$Q1w8CTbPeN2x5ow56BvtfOvc4Ya4NsQUfhCCiAqQW4wX8K6MZIDxi","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"88888@gmail.com","id":"071ed43f-28a4-4026-9c56-f95ddca17e8f","name":"Valentino Mena","password":"$2b$10$Q1w8CTbPeN2x5ow56BvtfOvc4Ya4NsQUfhCCiAqQW4wX8K6MZIDxi","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info"}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":{"age":"3","cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","id":"f0495ea6-3809-4c3d-9009-de015649f1ae","name":"valentino Mena","password":"$2b$10$7kRUSS2vz8noT/kpUqvPgOQfnfgr7uXnaiBFwdUo.qqO8wAJcChVW"}}
+{"level":"info","message":"1234"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":"3","cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","id":"f0495ea6-3809-4c3d-9009-de015649f1ae","name":"valentino Mena","password":"$2b$10$7kRUSS2vz8noT/kpUqvPgOQfnfgr7uXnaiBFwdUo.qqO8wAJcChVW"}}
+{"level":"info","message":"1234"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":"3","cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","id":"f0495ea6-3809-4c3d-9009-de015649f1ae","name":"valentino Mena","password":"$2b$10$7kRUSS2vz8noT/kpUqvPgOQfnfgr7uXnaiBFwdUo.qqO8wAJcChVW"}}
+{"level":"info","message":"1234"}
+{"level":"error","message":"invalid credentials"}
