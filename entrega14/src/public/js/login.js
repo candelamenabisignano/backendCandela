@@ -19,7 +19,7 @@ formLogin.addEventListener("submit", async (e) => {
     const usersJson = await users.json();
 
     const { status, payload } = usersJson;
-    console.log(payload)
+    console.log(payload);
 
     const exists = payload.find((user) => user.email === obj.email);
 
@@ -36,9 +36,7 @@ formLogin.addEventListener("submit", async (e) => {
     });
 
     if (login.status != 200) {
-      setTimeout(() => {
-        return window.location.replace("/login");
-      }, 10000);
+      return window.location.replace("/login");
     }
 
     const reqUser = await fetch("/api/sessions/current", {
@@ -50,7 +48,7 @@ formLogin.addEventListener("submit", async (e) => {
 
     const reqUserJson = await reqUser.json();
 
-    console.log(reqUserJson)
+    console.log(reqUserJson);
 
     if (reqUser.status == 200) {
       window.location.replace("/products");

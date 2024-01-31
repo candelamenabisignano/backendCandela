@@ -1,4 +1,4 @@
-import { Carts, Products } from "../dao/factory.js";
+import { Carts } from "../dao/factory.js";
 import configs from "../config.js";
 import CartsRepository from "../repository/carts.repository.js";
 import { __dirname } from "../utils.js";

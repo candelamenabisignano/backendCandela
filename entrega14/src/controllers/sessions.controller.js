@@ -7,8 +7,6 @@ import {
   uptadeService
 } from "../services/sessions.service.js";
 import nodemailer from 'nodemailer';
-import jwt from 'jsonwebtoken';
-import configs from "../config.js";
 
 const transporter= nodemailer.createTransport({
   service:'gmail',
@@ -97,7 +95,7 @@ const login = async (req, res) => {
       req.logger.error('invalid credentials')
       return res.status(405).send({ status: "error", error: "invalid credentials" });
     };
-    
+
     if(isValid(password, user.password) === false){
       req.logger.error('invalid credentials')
       return res.status(401).send({ status: "error", error: "invalid credentials" });
@@ -123,6 +121,10 @@ const uptadePassword=async(req,res)=>{
       req.logger.error('invalid credentials')
       return res.status(401).send({ status: "error", error: "invalid credentials" });
     };
+    if(isValid(password, user.password)){
+      req.logger.error("Unfortunately, the modification of your password cannot be facilitated at this time due to its retention as the current password")
+      return res.status(403).send({status:'error', error:"Unfortunately, the modification of your password cannot be facilitated at this time due to its retention as the current password"})
+    }
     const hashedPassword=createHash(password);
     const id=user._id ?? user.id;
     const userToUptade={...user, password:hashedPassword};

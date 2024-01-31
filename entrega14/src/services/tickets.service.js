@@ -1,6 +1,5 @@
 import configs from "../config.js";
 import { Tickets } from "../dao/factory.js";
-import { v4 as uuidv4 } from "uuid";
 import { __dirname } from "../utils.js";
 import TicketsRepository from "../repository/tickets.repository.js";
 

@@ -8,18 +8,12 @@ passwordForm.addEventListener("submit", async (e) => {
     data.forEach((value, key) => {
       obj[key] = value;
     });
-
-    const user = await fetch(`/api/sessions/users/password-link?email=${obj.email}`, {
+    await fetch(`/api/sessions/users/password-link?email=${obj.email}`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
       },
     });
-
-    const {status, token} = await user.json();
-
-    console.log(token);
-
   } catch (error) {
     console.log(error.message);
   }

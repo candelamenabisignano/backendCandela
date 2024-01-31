@@ -8,7 +8,6 @@ registerForm.addEventListener("submit", async (e) => {
     data.forEach((value, key) => {
       obj[key] = value;
     });
-    console.log(obj);
     const request = await fetch("/api/sessions/register", {
       method: "POST",
       body: JSON.stringify(obj),
@@ -16,8 +15,6 @@ registerForm.addEventListener("submit", async (e) => {
         "Content-Type": "application/json",
       },
     });
-    const toJson= await request.json();
-    console.log(toJson)
     if (request.status === 201) {
       window.location.replace("/login"); //si el user se registra correctamente, que lo mande a la ruta del profile
       console.log("suceeded register");

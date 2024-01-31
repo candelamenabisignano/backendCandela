@@ -1,6 +1,5 @@
 import { getProductsService } from "../services/products.service.js";
 import { getCartService } from "../services/carts.service.js";
-import { messages } from "../app.js";
 import configs from "../config.js";
 import { EErrors } from "../middlewares/errors/EErrors.js";
 import jwt from 'jsonwebtoken';

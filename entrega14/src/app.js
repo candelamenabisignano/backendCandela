@@ -10,7 +10,6 @@ import { __dirname } from "./utils.js";
 import { initializePassport } from "./config/passport.config.js";
 import configs from "./config.js";
 import { Server } from "socket.io";
-import { getMockingProducts } from "./controllers/products.controller.js";
 import errorHandler from './middlewares/errors/index.js';
 import { addLogger } from "./utils/logger.js";
 

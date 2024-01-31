@@ -1,10 +1,19 @@
 [
 	{
-		"password": "$2b$10$7kRUSS2vz8noT/kpUqvPgOQfnfgr7uXnaiBFwdUo.qqO8wAJcChVW",
-		"name": "valentino Mena",
+		"password": "$2b$10$BijOw2jJs7UpHZKFDGVMa.k0.2MxpgmrgQButl3t4JyBUIkZAfQ92",
+		"name": "undefined undefined",
 		"email": "bosteroman219@gmail.com",
+		"role": "user",
+		"age": 18,
+		"cart": "65628cabf7f1d897abfa63c0",
+		"id": "8401a0c8-0938-41be-8225-3393e1e5ae7e"
+	},
+	{
+		"password": "$2b$10$r8Q3X8t/J7VFUNbEHIPN/OHko1SBYeO7KU99vTENiSGVjHKkrEDWO",
+		"name": "undefined undefined",
+		"email": "valentinomena44@gmail.com",
 		"age": "3",
 		"cart": "65628cabf7f1d897abfa63c0",
-		"id": "f0495ea6-3809-4c3d-9009-de015649f1ae"
+		"id": "d8a56c05-24e8-4b4e-9173-c61858df6eb4"
 	}
 ]
