@@ -12,7 +12,7 @@ import configs from "./config.js";
 import { Server } from "socket.io";
 import errorHandler from './middlewares/errors/index.js';
 import { addLogger } from "./utils/logger.js";
-import swaggerJsdoc from 'swagger-jsdoc';
+import swaggerJSdoc from 'swagger-jsdoc';
 import swaggerUiExpress from 'swagger-ui-express';
 
 const app = express();
@@ -26,21 +26,20 @@ app.use(addLogger)
 app.use(errorHandler);
 app.use(cookieParser());
 
-const swaggerOptions={
+const options={
   definition:{
-      openapi:'3.0.1', //version de open api que usaremos, esta definira como nosotros vamos a escribir el json/yaml
+      openapi:'3.0.1', 
       info:{
-          title:"Documentacion del proyecto de e-commerce Candela Mena Coderhouse",
-          description:"API pensada para la compra y venta de productos"
+          title:"Documentacion del proyecto de adopcion de mascotas clase 39",
+          description:"API pensada para resolver el proceso de adopcion de mascotas"
       }
   },
-  apis:[`${__mainDirname}/docs/**/*.yaml`]/*ruta de la cual vamos a estar leyendo el archivo json/yaml*/
-  //estamos indicando que, dentro de la carpeta docs queremos acceder a cualquier carpeta y a cualquier archivo que sea .yaml,
-  //hay que cambiar el dirname porque la ruta empieza desde src y nosotros queremos que empiece desde recursosBackend-Adoptme
-};
+  apis:[`${__mainDirname}/docs/**/*.yaml`]
+}
 
+const spects= swaggerJSdoc(options)
 app.use("/", viewsRouter);
-app.use("/api/docs", swaggerUiExpress.serve, swaggerUiExpress.setup(swaggerJsdoc(swaggerOptions)));
+app.use("/api/docs", swaggerUiExpress.serve, swaggerUiExpress.setup(spects));
 app.use("/api/sessions", sessionsRouter);
 app.use("/api/products", productsRouter);
 app.use("/api/carts", cartsRouter);
