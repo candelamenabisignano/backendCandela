@@ -1,0 +1,11 @@
+paths:
+  /api/carts:
+    get:
+      summary: este servicio tiene todos los carritos cargados en la BDD
+      tags:
+      - Carts
+      responses:
+        "200": 
+          description: se obtuvieron los carritos con exito
+
+components:
