@@ -15,18 +15,7 @@ import { addLogger } from "./utils/logger.js";
 import swaggerJSdoc from 'swagger-jsdoc';
 import swaggerUiExpress from 'swagger-ui-express';
 
-const app = express();
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
-app.use(express.static(`${__dirname}/public`));
-app.engine("handlebars", handlebars.engine());
-app.set("views", `${__dirname}/views`);
-app.set("view engine", "handlebars");
-app.use(addLogger)
-app.use(errorHandler);
-app.use(cookieParser());
-
-const options={
+let options={
   definition:{
       openapi:'3.0.1', 
       info:{
@@ -37,9 +26,20 @@ const options={
   apis:[`${__mainDirname}/docs/**/*.yaml`]
 }
 
-const spects= swaggerJSdoc(options)
-app.use("/", viewsRouter);
+const app = express();
+let spects= swaggerJSdoc(options)
 app.use("/api/docs", swaggerUiExpress.serve, swaggerUiExpress.setup(spects));
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(express.static(`${__dirname}/public`));
+app.engine("handlebars", handlebars.engine());
+app.set("views", `${__dirname}/views`);
+app.set("view engine", "handlebars");
+app.use(addLogger)
+app.use(errorHandler);
+app.use(cookieParser());
+
+app.use("/", viewsRouter);
 app.use("/api/sessions", sessionsRouter);
 app.use("/api/products", productsRouter);
 app.use("/api/carts", cartsRouter);
