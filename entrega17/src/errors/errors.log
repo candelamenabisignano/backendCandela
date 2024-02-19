@@ -1,0 +1,704 @@
+{"level":"debug","message":"prueba debug"}
+{"level":"http","message":"prueba http"}
+{"level":"info","message":"prueba info"}
+{"level":"warning","message":"prueba warn"}
+{"level":"error","message":"prueba error"}
+{"level":"debug","message":"prueba debug"}
+{"level":"http","message":"prueba http"}
+{"level":"info","message":"prueba info"}
+{"level":"warning","message":"prueba warn"}
+{"level":"error","message":"prueba error"}
+{"level":"error","message":"cart not found"}
+{"level":"error","message":"invalid credentials"}
+{"level":"error","message":"invalid credentials"}
+{"level":"error","message":"invalid credentials"}
+{"level":"error","message":"product not found"}
+{"level":"error","message":"product not found"}
+{"level":"error","message":"product not found"}
+{"level":"error","message":"product not found"}
+{"level":"error","message":"invalid credentials"}
+{"level":"error","message":"as a premium user, you cant add to your cart a product that you created"}
+{"level":"error","message":"campus incomplete"}
+{"level":"info","message":"me conecteeeeeeee"}
+{"level":"info","message":"nullya pasamos 1"}
+{"level":"info","message":"pasamos validaciones"}
+{"level":"info","message":"nullya pasamos 1"}
+{"level":"info","message":"pasamos validaciones"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"cancan@gmail.com","first_name":"Candela","last_name":"Mena","password":"1234","role":"premium"}}
+{"level":"info","message":"pasamos validaciones"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"cancan@gmail.com","first_name":"Candela","last_name":"Mena","password":"1234","role":"premium"}}
+{"level":"info","message":"pasamos validaciones"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"cancan@gmail.com","first_name":"Candela","last_name":"Mena","password":"1234","role":"premium"}}
+{"level":"info","message":"pasamos validaciones"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"cancan@gmail.com","first_name":"Candela","last_name":"Mena","password":"1234","role":"premium"}}
+{"level":"info","message":"pasamos validaciones"}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":"pasamos registro"}
+{"level":"error","message":"an user has already registered with this email"}
+{"level":"info","message":"pasamos registro"}
+{"level":"error","message":"invalid credentials"}
+{"level":"error","message":"as a premium user, you cant add to your cart a product that you created"}
+{"level":"info","message":"pasamos registro"}
+{"level":"error","message":"an user has already registered with this email"}
+{"level":"error","message":"an user has already registered with this email"}
+{"level":"error","message":"invalid credentials"}
+{"level":"error","message":"user not found"}
+{"level":"error","message":"user not found"}
+{"level":"error","message":"user not found"}
+{"level":"error","message":"user not found"}
+{"level":"error","message":"user not found"}
+{"level":"error","message":"user not found"}
+{"level":"error","message":"user not found"}
+{"level":"error","message":"user not found"}
+{"level":"error","message":"user not found"}
+{"level":"info","message":"pasamos registro"}
+{"level":"error","message":"user not found"}
+{"level":"error","message":"user not found"}
+{"level":"error","message":"campus incomplete"}
+{"level":"error","message":"campus incomplete"}
+{"level":"info","message":null}
+{"level":"error","message":"campus incomplete"}
+{"level":"info","message":null}
+{"level":"error","message":"campus incomplete"}
+{"level":"info","message":null}
+{"level":"error","message":"campus incomplete"}
+{"level":"info","message":null}
+{"level":"error","message":"campus incomplete"}
+{"level":"info","message":null}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":{"exp":1706576590,"iat":1706572990,"user":{"email":"valentinomena44@gmail.com","password":"$2b$10$Pqx0iv5/K30EnLuo9i2kge8.2iTtfAN5ihPYFBebrZ45D5gLy58GW"}}}
+{"level":"info","message":{"email":"valentinomena44@gmail.com","password":"$2b$10$Pqx0iv5/K30EnLuo9i2kge8.2iTtfAN5ihPYFBebrZ45D5gLy58GW"}}
+{"level":"info","message":{"email":"valentinomena44@gmail.com","password":"$2b$10$Pqx0iv5/K30EnLuo9i2kge8.2iTtfAN5ihPYFBebrZ45D5gLy58GW"}}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":null}
+{"level":"info","message":"pasamos registro"}
+{"level":"error","message":"invalid credentials"}
+{"level":"error","message":"invalid credentials"}
+{"level":"error","message":"invalid credentials"}
+{"level":"error","message":"invalid credentials"}
+{"level":"error","message":"invalid credentials"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":"$2b$10$pfrvQ.sUIOxj5iQTqUYqzuhfX3113w/JV293XjY94UJ/Mh2Av.vEm"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":"$2b$10$pfrvQ.sUIOxj5iQTqUYqzuhfX3113w/JV293XjY94UJ/Mh2Av.vEm"}
+{"level":"info","message":"$2b$10$pfrvQ.sUIOxj5iQTqUYqzuhfX3113w/JV293XjY94UJ/Mh2Av.vEm"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$pfrvQ.sUIOxj5iQTqUYqzuhfX3113w/JV293XjY94UJ/Mh2Av.vEm","role":"user"}}
+{"level":"info","message":"$2b$10$pfrvQ.sUIOxj5iQTqUYqzuhfX3113w/JV293XjY94UJ/Mh2Av.vEm"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$pfrvQ.sUIOxj5iQTqUYqzuhfX3113w/JV293XjY94UJ/Mh2Av.vEm","role":"user"}}
+{"level":"info","message":"$2b$10$pfrvQ.sUIOxj5iQTqUYqzuhfX3113w/JV293XjY94UJ/Mh2Av.vEm"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$pfrvQ.sUIOxj5iQTqUYqzuhfX3113w/JV293XjY94UJ/Mh2Av.vEm","role":"user"}}
+{"level":"info","message":"$2b$10$pfrvQ.sUIOxj5iQTqUYqzuhfX3113w/JV293XjY94UJ/Mh2Av.vEm"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$pfrvQ.sUIOxj5iQTqUYqzuhfX3113w/JV293XjY94UJ/Mh2Av.vEm","role":"user"}}
+{"level":"info","message":"Candemena07"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$pfrvQ.sUIOxj5iQTqUYqzuhfX3113w/JV293XjY94UJ/Mh2Av.vEm","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$pfrvQ.sUIOxj5iQTqUYqzuhfX3113w/JV293XjY94UJ/Mh2Av.vEm","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$pfrvQ.sUIOxj5iQTqUYqzuhfX3113w/JV293XjY94UJ/Mh2Av.vEm","role":"user"}}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$pfrvQ.sUIOxj5iQTqUYqzuhfX3113w/JV293XjY94UJ/Mh2Av.vEm","role":"user"}}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$pfrvQ.sUIOxj5iQTqUYqzuhfX3113w/JV293XjY94UJ/Mh2Av.vEm","role":"user"}}
+{"level":"info","message":"$2b$10$yHcf6M6R5FfBw9AT6/y6jOnObezB9AYfYvl7AFcvWEUTpNJCuXsYmhasheada"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$pfrvQ.sUIOxj5iQTqUYqzuhfX3113w/JV293XjY94UJ/Mh2Av.vEm","role":"user"}}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$pfrvQ.sUIOxj5iQTqUYqzuhfX3113w/JV293XjY94UJ/Mh2Av.vEm","role":"user"}}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$pfrvQ.sUIOxj5iQTqUYqzuhfX3113w/JV293XjY94UJ/Mh2Av.vEm","role":"user"}}
+{"level":"error","message":"cookie not found"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$pfrvQ.sUIOxj5iQTqUYqzuhfX3113w/JV293XjY94UJ/Mh2Av.vEm","role":"user"}}
+{"level":"info","message":"$2b$10$pfrvQ.sUIOxj5iQTqUYqzuhfX3113w/JV293XjY94UJ/Mh2Av.vEm"}
+{"level":"info"}
+{"level":"info","message":"$2b$10$pfrvQ.sUIOxj5iQTqUYqzuhfX3113w/JV293XjY94UJ/Mh2Av.vEm"}
+{"level":"info","message":false}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":"$2b$10$pfrvQ.sUIOxj5iQTqUYqzuhfX3113w/JV293XjY94UJ/Mh2Av.vEm"}
+{"level":"info","message":false}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":"$2b$10$pfrvQ.sUIOxj5iQTqUYqzuhfX3113w/JV293XjY94UJ/Mh2Av.vEm"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":"$2b$10$pfrvQ.sUIOxj5iQTqUYqzuhfX3113w/JV293XjY94UJ/Mh2Av.vEm"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":"$2b$10$pfrvQ.sUIOxj5iQTqUYqzuhfX3113w/JV293XjY94UJ/Mh2Av.vEm"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":"$2b$10$v/VAN.zHuMs4pY1nuKu2pOPKMa43ABipWPLxGoHR8pUFwMbtu74PK"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":"$2b$10$v/VAN.zHuMs4pY1nuKu2pOPKMa43ABipWPLxGoHR8pUFwMbtu74PK"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":"$2b$10$v/VAN.zHuMs4pY1nuKu2pOPKMa43ABipWPLxGoHR8pUFwMbtu74PK"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":"$2b$10$v/VAN.zHuMs4pY1nuKu2pOPKMa43ABipWPLxGoHR8pUFwMbtu74PK"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":"$2b$10$v/VAN.zHuMs4pY1nuKu2pOPKMa43ABipWPLxGoHR8pUFwMbtu74PK"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":"$2b$10$v/VAN.zHuMs4pY1nuKu2pOPKMa43ABipWPLxGoHR8pUFwMbtu74PK"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":"$2b$10$v/VAN.zHuMs4pY1nuKu2pOPKMa43ABipWPLxGoHR8pUFwMbtu74PK"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":"$2b$10$v/VAN.zHuMs4pY1nuKu2pOPKMa43ABipWPLxGoHR8pUFwMbtu74PK"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":"$2b$10$v/VAN.zHuMs4pY1nuKu2pOPKMa43ABipWPLxGoHR8pUFwMbtu74PK"}
+{"level":"info","message":"Candemena07"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":"$2b$10$v/VAN.zHuMs4pY1nuKu2pOPKMa43ABipWPLxGoHR8pUFwMbtu74PK"}
+{"level":"info","message":"Candemena"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":"$2b$10$v/VAN.zHuMs4pY1nuKu2pOPKMa43ABipWPLxGoHR8pUFwMbtu74PK"}
+{"level":"info","message":"Candemena"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":"$2b$10$20hb.WLwpLVIBg9PtqWY/evqvawsMob87VhqbLPc2xG12wXROsOHe"}
+{"level":"info","message":"Candemena07"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":"$2b$10$20hb.WLwpLVIBg9PtqWY/evqvawsMob87VhqbLPc2xG12wXROsOHe"}
+{"level":"info","message":"1234"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":"$2b$10$20hb.WLwpLVIBg9PtqWY/evqvawsMob87VhqbLPc2xG12wXROsOHe"}
+{"level":"info","message":"Candemena07"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":"$2b$10$EEo8vYuaiP42PfluFDEEoulqg1e8zzrYhyxW8jtpWVwwnTndO0B0u"}
+{"level":"info","message":"12345"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":"$2b$10$EEo8vYuaiP42PfluFDEEoulqg1e8zzrYhyxW8jtpWVwwnTndO0B0u"}
+{"level":"info","message":"12345"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":"$2b$10$fUJqZQOdqyC15xeQ7RSDsuga4YVOsgi8nhusSHSvF9nraJrOJcova"}
+{"level":"info","message":"123456"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$fUJqZQOdqyC15xeQ7RSDsuga4YVOsgi8nhusSHSvF9nraJrOJcova","role":"user"}}
+{"level":"info","message":"123456"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$WM/vD4Bm2vA29cBMO8gL3eepFfjGvNAWwTQ0gRYmA5ghiuT1E19nK","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$WM/vD4Bm2vA29cBMO8gL3eepFfjGvNAWwTQ0gRYmA5ghiuT1E19nK","role":"user"}}
+{"level":"info","message":"Candemena07"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$WM/vD4Bm2vA29cBMO8gL3eepFfjGvNAWwTQ0gRYmA5ghiuT1E19nK","role":"user"}}
+{"level":"info","message":"Candemena07"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$WM/vD4Bm2vA29cBMO8gL3eepFfjGvNAWwTQ0gRYmA5ghiuT1E19nK","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"error","message":"invalid credentials"}
+{"level":"error","message":"jwt expired"}
+{"level":"info","message":"65b840917eb12b5790fbb9d8"}
+{"level":"info","message":"65b840917eb12b5790fbb9d8"}
+{"level":"info","message":"65b840917eb12b5790fbb9d8"}
+{"level":"info","message":"65b840917eb12b5790fbb9d8"}
+{"level":"info","message":"65b840917eb12b5790fbb9d8"}
+{"level":"info","message":"65b840917eb12b5790fbb9d8"}
+{"level":"info","message":"65b840917eb12b5790fbb9d8"}
+{"level":"info","message":"65b840917eb12b5790fbb9d8"}
+{"level":"info","message":"65b840917eb12b5790fbb9d8"}
+{"level":"info","message":"65b840917eb12b5790fbb9d8"}
+{"level":"info","message":"65b840917eb12b5790fbb9d8"}
+{"level":"info","message":"65b840917eb12b5790fbb9d8"}
+{"level":"info","message":"65b840917eb12b5790fbb9d8"}
+{"level":"info","message":"65b840917eb12b5790fbb9d8"}
+{"level":"info","message":"65b840917eb12b5790fbb9d8"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$XpMONFGZ6wCZSG57isBJaunm8Av1RwxWPl01ljnLLOj86BOe5n/2i","role":"user"}}
+{"level":"info","message":"Candemena07"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$XpMONFGZ6wCZSG57isBJaunm8Av1RwxWPl01ljnLLOj86BOe5n/2i","role":"user"}}
+{"level":"info","message":"Candemena07"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$r.yR2uJwIYggDdD80e4ANuhcQLyoOU.hqrzTFFrFtrilMwbOMfRW2","role":"user"}}
+{"level":"info","message":"Candemena07"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":"[object Object]user 1"}
+{"level":"info","message":"[object Object]user 1"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$97MjStRqh1v1AyDOX4LBW.cPOuZYUdM8QNAeZrFRNeh2PmfLCy8oa","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$97MjStRqh1v1AyDOX4LBW.cPOuZYUdM8QNAeZrFRNeh2PmfLCy8oa","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$97MjStRqh1v1AyDOX4LBW.cPOuZYUdM8QNAeZrFRNeh2PmfLCy8oa","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$97MjStRqh1v1AyDOX4LBW.cPOuZYUdM8QNAeZrFRNeh2PmfLCy8oa","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$97MjStRqh1v1AyDOX4LBW.cPOuZYUdM8QNAeZrFRNeh2PmfLCy8oa","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":"[object Object]user 1"}
+{"level":"info","message":"[object Object]user 1"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$c8aHbiQ4VB3WFRMt2jL15epe/oRrBzAjw9vVbHhTFK0FFMzIAFcKO","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":"[object Object]user 1"}
+{"level":"info","message":"[object Object]user 1"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$n3PDCwtVzzHVtc1h4Mefz.qVd5mj3MJk28DDoErztk4O65SZ1XmIG","role":"user"}}
+{"level":"info","message":"3344"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$n3PDCwtVzzHVtc1h4Mefz.qVd5mj3MJk28DDoErztk4O65SZ1XmIG","role":"user"}}
+{"level":"info","message":"3344"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$n3PDCwtVzzHVtc1h4Mefz.qVd5mj3MJk28DDoErztk4O65SZ1XmIG","role":"user"}}
+{"level":"info","message":"3344"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$n3PDCwtVzzHVtc1h4Mefz.qVd5mj3MJk28DDoErztk4O65SZ1XmIG","role":"user"}}
+{"level":"info","message":"3344"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$n3PDCwtVzzHVtc1h4Mefz.qVd5mj3MJk28DDoErztk4O65SZ1XmIG","role":"user"}}
+{"level":"info","message":"3344"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$n3PDCwtVzzHVtc1h4Mefz.qVd5mj3MJk28DDoErztk4O65SZ1XmIG","role":"user"}}
+{"level":"info","message":"3344"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$n3PDCwtVzzHVtc1h4Mefz.qVd5mj3MJk28DDoErztk4O65SZ1XmIG","role":"user"}}
+{"level":"info","message":"3344"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$n3PDCwtVzzHVtc1h4Mefz.qVd5mj3MJk28DDoErztk4O65SZ1XmIG","role":"user"}}
+{"level":"info","message":"3344"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$n3PDCwtVzzHVtc1h4Mefz.qVd5mj3MJk28DDoErztk4O65SZ1XmIG","role":"user"}}
+{"level":"info","message":"3344"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$n3PDCwtVzzHVtc1h4Mefz.qVd5mj3MJk28DDoErztk4O65SZ1XmIG","role":"user"}}
+{"level":"info","message":"3344"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$n3PDCwtVzzHVtc1h4Mefz.qVd5mj3MJk28DDoErztk4O65SZ1XmIG","role":"user"}}
+{"level":"info","message":"3344"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$n3PDCwtVzzHVtc1h4Mefz.qVd5mj3MJk28DDoErztk4O65SZ1XmIG","role":"user"}}
+{"level":"info","message":"3344"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":"[object Object]user 1"}
+{"level":"info","message":"[object Object]user 1"}
+{"level":"info","message":"[object Object]user 1"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$D9VS/xNr2tuQpTVqOsSDuuCSAqNky.8wCC70yRF/z.R5620GtS64a","role":"user"}}
+{"level":"info","message":"3434"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$D9VS/xNr2tuQpTVqOsSDuuCSAqNky.8wCC70yRF/z.R5620GtS64a","role":"user"}}
+{"level":"info","message":"3344"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$D9VS/xNr2tuQpTVqOsSDuuCSAqNky.8wCC70yRF/z.R5620GtS64a","role":"user"}}
+{"level":"info","message":"3344"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$D9VS/xNr2tuQpTVqOsSDuuCSAqNky.8wCC70yRF/z.R5620GtS64a","role":"user"}}
+{"level":"info","message":"3344"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$D9VS/xNr2tuQpTVqOsSDuuCSAqNky.8wCC70yRF/z.R5620GtS64a","role":"user"}}
+{"level":"info","message":"1414"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$D9VS/xNr2tuQpTVqOsSDuuCSAqNky.8wCC70yRF/z.R5620GtS64a","role":"user"}}
+{"level":"info","message":"1414"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$D9VS/xNr2tuQpTVqOsSDuuCSAqNky.8wCC70yRF/z.R5620GtS64a","role":"user"}}
+{"level":"info","message":"1414"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$D9VS/xNr2tuQpTVqOsSDuuCSAqNky.8wCC70yRF/z.R5620GtS64a","role":"user"}}
+{"level":"info","message":"1414"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$D9VS/xNr2tuQpTVqOsSDuuCSAqNky.8wCC70yRF/z.R5620GtS64a","role":"user"}}
+{"level":"info","message":"1414"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$w0hdEPG8qUyzsZTgdXivju07jzN9ezDgy3G4vg.bD7BRZ6Cly9UoO","role":"user"}}
+{"level":"info","message":"2233"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$w0hdEPG8qUyzsZTgdXivju07jzN9ezDgy3G4vg.bD7BRZ6Cly9UoO","role":"user"}}
+{"level":"info","message":"2233"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$w0hdEPG8qUyzsZTgdXivju07jzN9ezDgy3G4vg.bD7BRZ6Cly9UoO","role":"user"}}
+{"level":"info","message":"2233"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$w0hdEPG8qUyzsZTgdXivju07jzN9ezDgy3G4vg.bD7BRZ6Cly9UoO","role":"user"}}
+{"level":"info","message":"2233"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b840917eb12b5790fbb9d8","age":2,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","password":"$2b$10$w0hdEPG8qUyzsZTgdXivju07jzN9ezDgy3G4vg.bD7BRZ6Cly9UoO","role":"user"}}
+{"level":"info","message":"2233"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info"}
+{"level":"error","message":"an user has already registered with this email"}
+{"level":"info"}
+{"level":"error","message":"an user has already registered with this email"}
+{"level":"info"}
+{"level":"error","message":"an user has already registered with this email"}
+{"level":"info"}
+{"level":"error","message":"an user has already registered with this email"}
+{"level":"info"}
+{"level":"error","message":"an user has already registered with this email"}
+{"level":"info"}
+{"level":"error","message":"an user has already registered with this email"}
+{"level":"info"}
+{"level":"error","message":"an user has already registered with this email"}
+{"level":"info"}
+{"level":"error","message":"an user has already registered with this email"}
+{"level":"info"}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":{"age":"3","cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","id":"7e639448-d096-4cd1-b7d1-47be7121890f","name":"valentino Mena","password":"$2b$10$j6zT6NFbf6eIKNJsJvIlWejUD2AQJp2K5tUiHTY8T3SfujGHfrIQ6"}}
+{"level":"info","message":"1234"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":"3","cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","id":"7e639448-d096-4cd1-b7d1-47be7121890f","name":"valentino Mena","password":"$2b$10$j6zT6NFbf6eIKNJsJvIlWejUD2AQJp2K5tUiHTY8T3SfujGHfrIQ6"}}
+{"level":"info","message":"1234"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info"}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman2199@gmail.com","id":"ae9f6add-12f5-4f7d-80a6-3d2f24e76515","name":"Valentino Mena","password":"$2b$10$RvLnpEB1Uk0bTJjcQ0pwougLZ8.3.H8OBwAum1Fku7JhMrb/oOsIu","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman2199@gmail.com","id":"ae9f6add-12f5-4f7d-80a6-3d2f24e76515","name":"Valentino Mena","password":"$2b$10$RvLnpEB1Uk0bTJjcQ0pwougLZ8.3.H8OBwAum1Fku7JhMrb/oOsIu","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman2199@gmail.com","id":"ae9f6add-12f5-4f7d-80a6-3d2f24e76515","name":"Valentino Mena","password":"$2b$10$RvLnpEB1Uk0bTJjcQ0pwougLZ8.3.H8OBwAum1Fku7JhMrb/oOsIu","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman2199@gmail.com","id":"ae9f6add-12f5-4f7d-80a6-3d2f24e76515","name":"Valentino Mena","password":"$2b$10$RvLnpEB1Uk0bTJjcQ0pwougLZ8.3.H8OBwAum1Fku7JhMrb/oOsIu","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman2199@gmail.com","id":"ae9f6add-12f5-4f7d-80a6-3d2f24e76515","name":"Valentino Mena","password":"$2b$10$RvLnpEB1Uk0bTJjcQ0pwougLZ8.3.H8OBwAum1Fku7JhMrb/oOsIu","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":"3","cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","id":"7e639448-d096-4cd1-b7d1-47be7121890f","name":"valentino Mena","password":"$2b$10$j6zT6NFbf6eIKNJsJvIlWejUD2AQJp2K5tUiHTY8T3SfujGHfrIQ6"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":{"age":"3","cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","id":"7e639448-d096-4cd1-b7d1-47be7121890f","name":"valentino Mena","password":"$2b$10$j6zT6NFbf6eIKNJsJvIlWejUD2AQJp2K5tUiHTY8T3SfujGHfrIQ6"}}
+{"level":"info","message":"Candemena07"}
+{"level":"info"}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"88@gmail.com","id":"0eb198aa-ae6e-470e-8eda-e8a88807664b","name":"Valentino Mena","password":"$2b$10$RIfq4fhehGp60ryvNR7z.OImFPuXT2pVymOVKt/qMx9AOXqH4JLnS","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":false}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"88@gmail.com","id":"0eb198aa-ae6e-470e-8eda-e8a88807664b","name":"Valentino Mena","password":"$2b$10$RIfq4fhehGp60ryvNR7z.OImFPuXT2pVymOVKt/qMx9AOXqH4JLnS","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":false}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"88@gmail.com","id":"0eb198aa-ae6e-470e-8eda-e8a88807664b","name":"Valentino Mena","password":"$2b$10$RIfq4fhehGp60ryvNR7z.OImFPuXT2pVymOVKt/qMx9AOXqH4JLnS","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":false}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"88@gmail.com","id":"0eb198aa-ae6e-470e-8eda-e8a88807664b","name":"Valentino Mena","password":"$2b$10$RIfq4fhehGp60ryvNR7z.OImFPuXT2pVymOVKt/qMx9AOXqH4JLnS","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":false}
+{"level":"error","message":"invalid credentials"}
+{"level":"info"}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"888@gmail.com","id":"b28e95a3-bfb3-40b8-8011-424c8a042db8","name":"Valentino Mena","password":"$2b$10$bZfpZnNx7QhXTLMsVMfJsu4ZHFhm57SciCDdbvy2NQTkXl4D/qoVi","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":false}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"888@gmail.com","id":"b28e95a3-bfb3-40b8-8011-424c8a042db8","name":"Valentino Mena","password":"$2b$10$bZfpZnNx7QhXTLMsVMfJsu4ZHFhm57SciCDdbvy2NQTkXl4D/qoVi","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":false}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"888@gmail.com","id":"b28e95a3-bfb3-40b8-8011-424c8a042db8","name":"Valentino Mena","password":"$2b$10$bZfpZnNx7QhXTLMsVMfJsu4ZHFhm57SciCDdbvy2NQTkXl4D/qoVi","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":false}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"888@gmail.com","id":"b28e95a3-bfb3-40b8-8011-424c8a042db8","name":"Valentino Mena","password":"$2b$10$bZfpZnNx7QhXTLMsVMfJsu4ZHFhm57SciCDdbvy2NQTkXl4D/qoVi","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":false}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"888@gmail.com","id":"b28e95a3-bfb3-40b8-8011-424c8a042db8","name":"Valentino Mena","password":"$2b$10$bZfpZnNx7QhXTLMsVMfJsu4ZHFhm57SciCDdbvy2NQTkXl4D/qoVi","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":false}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"888@gmail.com","id":"b28e95a3-bfb3-40b8-8011-424c8a042db8","name":"Valentino Mena","password":"$2b$10$bZfpZnNx7QhXTLMsVMfJsu4ZHFhm57SciCDdbvy2NQTkXl4D/qoVi","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":false}
+{"level":"error","message":"invalid credentials"}
+{"level":"info"}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"8888@gmail.com","id":"3a59827d-bcc9-4335-80f8-7d2930dbba46","name":"Valentino Mena","password":"$2b$10$P/niH27S0PWTpdYRIr3byOTDpmuxo5u1.SyOlfzwmCvxk74HKxbdy","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":false}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"8888@gmail.com","id":"3a59827d-bcc9-4335-80f8-7d2930dbba46","name":"Valentino Mena","password":"$2b$10$P/niH27S0PWTpdYRIr3byOTDpmuxo5u1.SyOlfzwmCvxk74HKxbdy","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":false}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"8888@gmail.com","id":"3a59827d-bcc9-4335-80f8-7d2930dbba46","name":"Valentino Mena","password":"$2b$10$P/niH27S0PWTpdYRIr3byOTDpmuxo5u1.SyOlfzwmCvxk74HKxbdy","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":false}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"8888@gmail.com","id":"3a59827d-bcc9-4335-80f8-7d2930dbba46","name":"Valentino Mena","password":"$2b$10$P/niH27S0PWTpdYRIr3byOTDpmuxo5u1.SyOlfzwmCvxk74HKxbdy","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":false}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"8888@gmail.com","id":"3a59827d-bcc9-4335-80f8-7d2930dbba46","name":"Valentino Mena","password":"$2b$10$P/niH27S0PWTpdYRIr3byOTDpmuxo5u1.SyOlfzwmCvxk74HKxbdy","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":false}
+{"level":"error","message":"invalid credentials"}
+{"level":"info"}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"88888@gmail.com","id":"071ed43f-28a4-4026-9c56-f95ddca17e8f","name":"Valentino Mena","password":"$2b$10$Q1w8CTbPeN2x5ow56BvtfOvc4Ya4NsQUfhCCiAqQW4wX8K6MZIDxi","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":false}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"88888@gmail.com","id":"071ed43f-28a4-4026-9c56-f95ddca17e8f","name":"Valentino Mena","password":"$2b$10$Q1w8CTbPeN2x5ow56BvtfOvc4Ya4NsQUfhCCiAqQW4wX8K6MZIDxi","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":false}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"88888@gmail.com","id":"071ed43f-28a4-4026-9c56-f95ddca17e8f","name":"Valentino Mena","password":"$2b$10$Q1w8CTbPeN2x5ow56BvtfOvc4Ya4NsQUfhCCiAqQW4wX8K6MZIDxi","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"88888@gmail.com","id":"071ed43f-28a4-4026-9c56-f95ddca17e8f","name":"Valentino Mena","password":"$2b$10$Q1w8CTbPeN2x5ow56BvtfOvc4Ya4NsQUfhCCiAqQW4wX8K6MZIDxi","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info"}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":{"age":"3","cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","id":"f0495ea6-3809-4c3d-9009-de015649f1ae","name":"valentino Mena","password":"$2b$10$7kRUSS2vz8noT/kpUqvPgOQfnfgr7uXnaiBFwdUo.qqO8wAJcChVW"}}
+{"level":"info","message":"1234"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":"3","cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","id":"f0495ea6-3809-4c3d-9009-de015649f1ae","name":"valentino Mena","password":"$2b$10$7kRUSS2vz8noT/kpUqvPgOQfnfgr7uXnaiBFwdUo.qqO8wAJcChVW"}}
+{"level":"info","message":"1234"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":"3","cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","id":"f0495ea6-3809-4c3d-9009-de015649f1ae","name":"valentino Mena","password":"$2b$10$7kRUSS2vz8noT/kpUqvPgOQfnfgr7uXnaiBFwdUo.qqO8wAJcChVW"}}
+{"level":"info","message":"1234"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info"}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","id":"8401a0c8-0938-41be-8225-3393e1e5ae7e","name":"Valentino Mena","password":"$2b$10$K2pGJXGI0vp9bdoF3FdkIOxsGeEqkVSieuBeYZcOaYVmvl59UySG6","role":"user"}}
+{"level":"error","message":"an user has already registered with this email"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","id":"8401a0c8-0938-41be-8225-3393e1e5ae7e","name":"Valentino Mena","password":"$2b$10$K2pGJXGI0vp9bdoF3FdkIOxsGeEqkVSieuBeYZcOaYVmvl59UySG6","role":"user"}}
+{"level":"error","message":"an user has already registered with this email"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","id":"8401a0c8-0938-41be-8225-3393e1e5ae7e","name":"Valentino Mena","password":"$2b$10$K2pGJXGI0vp9bdoF3FdkIOxsGeEqkVSieuBeYZcOaYVmvl59UySG6","role":"user"}}
+{"level":"error","message":"an user has already registered with this email"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","id":"8401a0c8-0938-41be-8225-3393e1e5ae7e","name":"Valentino Mena","password":"$2b$10$K2pGJXGI0vp9bdoF3FdkIOxsGeEqkVSieuBeYZcOaYVmvl59UySG6","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","id":"8401a0c8-0938-41be-8225-3393e1e5ae7e","name":"undefined undefined","password":"$2b$10$BijOw2jJs7UpHZKFDGVMa.k0.2MxpgmrgQButl3t4JyBUIkZAfQ92","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","id":"8401a0c8-0938-41be-8225-3393e1e5ae7e","name":"undefined undefined","password":"$2b$10$BijOw2jJs7UpHZKFDGVMa.k0.2MxpgmrgQButl3t4JyBUIkZAfQ92","role":"user"}}
+{"level":"info","message":"1155"}
+{"level":"info","message":{"age":18,"cart":"65628cabf7f1d897abfa63c0","email":"bosteroman219@gmail.com","id":"8401a0c8-0938-41be-8225-3393e1e5ae7e","name":"undefined undefined","password":"$2b$10$BijOw2jJs7UpHZKFDGVMa.k0.2MxpgmrgQButl3t4JyBUIkZAfQ92","role":"user"}}
+{"level":"info","message":"1142"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info"}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":{"age":"3","cart":"65628cabf7f1d897abfa63c0","email":"valentinomena44@gmail.com","id":"d8a56c05-24e8-4b4e-9173-c61858df6eb4","name":"valentino Mena","password":"$2b$10$7fGqagcofp6k5PP9y8r1WOrl3tLivqkSn/7h2iRS3AviVknK5sMFS"}}
+{"level":"info","message":"1234"}
+{"level":"error","message":"cookie not found"}
+{"level":"info","message":{"age":"3","cart":"65628cabf7f1d897abfa63c0","email":"valentinomena44@gmail.com","id":"d8a56c05-24e8-4b4e-9173-c61858df6eb4","name":"valentino Mena","password":"$2b$10$7fGqagcofp6k5PP9y8r1WOrl3tLivqkSn/7h2iRS3AviVknK5sMFS"}}
+{"level":"info","message":"Candemena07"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":"3","cart":"65628cabf7f1d897abfa63c0","email":"valentinomena44@gmail.com","id":"d8a56c05-24e8-4b4e-9173-c61858df6eb4","name":"undefined undefined","password":"$2b$10$r8Q3X8t/J7VFUNbEHIPN/OHko1SBYeO7KU99vTENiSGVjHKkrEDWO"}}
+{"level":"info","message":"1234"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"age":"3","cart":"65628cabf7f1d897abfa63c0","email":"valentinomena44@gmail.com","id":"d8a56c05-24e8-4b4e-9173-c61858df6eb4","name":"undefined undefined","password":"$2b$10$r8Q3X8t/J7VFUNbEHIPN/OHko1SBYeO7KU99vTENiSGVjHKkrEDWO"}}
+{"level":"info","message":"1133"}
+{"level":"info","message":null}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":{"__v":0,"_id":"65b99f4077694e646e6f3c66","age":3,"cart":"65628cabf7f1d897abfa63c0","email":"valentinomena44@gmail.com","password":"$2b$10$YhmCyAZ9vFNO7.K0fzFLiOu64LfH0vF2RhLucqJhVpVX2xZ3mt21e","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"error","message":"cookie not found"}
+{"level":"error","message":"cookie not found"}
+{"level":"info","message":{"__v":0,"_id":"65b99f4077694e646e6f3c66","age":3,"cart":"65628cabf7f1d897abfa63c0","email":"valentinomena44@gmail.com","password":"$2b$10$YhmCyAZ9vFNO7.K0fzFLiOu64LfH0vF2RhLucqJhVpVX2xZ3mt21e","role":"user"}}
+{"level":"info","message":"1155"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b99f4077694e646e6f3c66","age":3,"cart":"65628cabf7f1d897abfa63c0","email":"valentinomena44@gmail.com","password":"$2b$10$YzX0EvmB60iUDtZmdrBHxuXlxRN4IONAlLHtOc1ttFtj1fwlY5I4S","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"error","message":"invalid credentials"}
+{"level":"info","message":{"__v":0,"_id":"65b99f4077694e646e6f3c66","age":3,"cart":"65628cabf7f1d897abfa63c0","email":"valentinomena44@gmail.com","password":"$2b$10$YzX0EvmB60iUDtZmdrBHxuXlxRN4IONAlLHtOc1ttFtj1fwlY5I4S","role":"user"}}
+{"level":"info","message":"1133"}
+{"level":"error","message":"Unfortunately, the modification of your password cannot be facilitated at this time due to its retention as the current password"}
+{"level":"error","message":"Unfortunately, the modification of your password cannot be facilitated at this time due to its retention as the current password"}
+{"level":"error","message":"Unfortunately, the modification of your password cannot be facilitated at this time due to its retention as the current password"}
+{"level":"info","message":null}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":null}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":{"__v":0,"_id":"65ca8e43ce7f3a342f4540be","age":20,"cart":"65ca760ad20b5615945eff49","email":"Carolina10@yahoo.com","password":"$2b$10$gqZB6kRNs9LBuqpTXV4hseiKzsHkz/Lg3JvPubgf./LkU7qqwdoZq","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":null}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":null}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":{"__v":0,"_id":"65ca8ebdce7f3a342f4540d9","age":33,"cart":"65ca760ad20b5615945eff49","email":"Oscar_AponteMedina71@hotmail.com","password":"$2b$10$./2c1JxlbcKP/z3OMLyzpOsUWg8Wn0CSRPYxBojrDKMEN0a1nxMGW","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":null}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":null}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":{"__v":0,"_id":"65ca8f3ba819a049322daf9e","age":32,"cart":"65ca760ad20b5615945eff49","email":"Rosa_DelapazAguilera20@yahoo.com","password":"$2b$10$SEKCdmPwPj0p/2YRHciN4u3tlUN5N2C6PU/hY/OJfGg0pR8JEGfC.","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"error","message":"incomplete campus"}
+{"level":"info","message":null}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":null}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":{"__v":0,"_id":"65ca9058a819a049322dafb6","age":15,"cart":"65ca760ad20b5615945eff49","email":"Pablo46@hotmail.com","password":"$2b$10$rERoFE1rHHB/JsemnMb97emps2rVmtI63vbqD0TKOmrV/F9Rojd7.","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":null}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":null}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":{"__v":0,"_id":"65ca909ba819a049322dafce","age":52,"cart":"65ca760ad20b5615945eff49","email":"Gilberto20@gmail.com","password":"$2b$10$P7SrcNTZ8CZmR5NgDUfkSeys.rWrV8vAQyHBTYnjfJ6h/7KNjF/jm","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":null}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":null}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":{"__v":0,"_id":"65ca90c5a819a049322dafe6","age":51,"cart":"65ca760ad20b5615945eff49","email":"Susana_UriasCervantez52@gmail.com","password":"$2b$10$ddUSQBHMZTsx5JjEqwOzSegGIPnIwIpm1auiEPK22M9gRX6tn8ylC","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":null}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":null}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":{"__v":0,"_id":"65ca911bb55a82ffc4026992","age":27,"cart":"65ca760ad20b5615945eff49","email":"Diego96@gmail.com","password":"$2b$10$xx0jQEH.xfPev6RWakGosOxmhCHcj4KD2N3XhrQlccOv5WXj8kOgS","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":null}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":null}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":{"__v":0,"_id":"65ca91ab32f9a575c127b6d4","age":31,"cart":"65ca760ad20b5615945eff49","email":"Pilar58@hotmail.com","password":"$2b$10$kW.qYySwoqPi0mpAlRc3fuIClqLS2GqXKRRSrv1LxHCWApkWZqNDG","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":null}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":null}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":{"__v":0,"_id":"65ca91db32f9a575c127b6f0","age":27,"cart":"65ca760ad20b5615945eff49","email":"JoseEduardo.LovatoAguayo@yahoo.com","password":"$2b$10$g/LYJndPFzVdIJJpBkmWte9IgtSs8cGNDT1aKktcFcHieYPHfUXRq","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":null}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":null}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":{"__v":0,"_id":"65ca941732f9a575c127b70c","age":28,"cart":"65ca760ad20b5615945eff49","email":"Dorotea3@yahoo.com","password":"$2b$10$2/T/BXjvKVu/yQtcYHSiMeGJMU2CjdxsZGk5ZVVlSLtXSPHDGox8y","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":null}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":null}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":null}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":{"__v":0,"_id":"65ca950994ce2562fdd5c812","age":56,"cart":"65ca760ad20b5615945eff49","email":"Blanca.VelasquezJurado1@hotmail.com","password":"$2b$10$WuD3vu6lpSubj6k3xk9TZ.yzW2Kry.bwbiMvtZo30k75TJXdP6Sk.","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":{"__v":0,"_id":"65c98d06b7aa2af49f67caa4","age":18,"cart":"65c98c10eac60bc93708b3ee","email":"ch@gmail.com","name":"Candela Mena","password":"$2b$10$9kCLw4.y6HiNNoQprbJOuuYTEJN6y5eKEhV1voP3eTcOIskhI3PBK","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":{"__v":0,"_id":"65c98d06b7aa2af49f67caa4","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[],"email":"ch@gmail.com","name":"Candela Mena","password":"$2b$10$9kCLw4.y6HiNNoQprbJOuuYTEJN6y5eKEhV1voP3eTcOIskhI3PBK","role":"user"}}
+{"level":"info","message":{"__v":0,"_id":"65c98d06b7aa2af49f67caa4","age":18,"cart":"65c98c10eac60bc93708b3ee","email":"ch@gmail.com","name":"Candela Mena","password":"$2b$10$9kCLw4.y6HiNNoQprbJOuuYTEJN6y5eKEhV1voP3eTcOIskhI3PBK","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":{"__v":0,"_id":"65c98d06b7aa2af49f67caa4","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[],"email":"ch@gmail.com","name":"Candela Mena","password":"$2b$10$9kCLw4.y6HiNNoQprbJOuuYTEJN6y5eKEhV1voP3eTcOIskhI3PBK","role":"user"}}
+{"level":"info","message":{"__v":0,"_id":"65c98d06b7aa2af49f67caa4","age":18,"cart":"65c98c10eac60bc93708b3ee","email":"ch@gmail.com","last_connection":"18/2/2024, 20:39:35","name":"Candela Mena","password":"$2b$10$9kCLw4.y6HiNNoQprbJOuuYTEJN6y5eKEhV1voP3eTcOIskhI3PBK","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":{"__v":0,"_id":"65c98d06b7aa2af49f67caa4","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[],"email":"ch@gmail.com","last_connection":"18/2/2024, 20:39:35","name":"Candela Mena","password":"$2b$10$9kCLw4.y6HiNNoQprbJOuuYTEJN6y5eKEhV1voP3eTcOIskhI3PBK","role":"user"}}
+{"level":"info","message":{"__v":0,"_id":"65c98d06b7aa2af49f67caa4","age":18,"cart":"65c98c10eac60bc93708b3ee","email":"ch@gmail.com","last_connection":"18/2/2024, 20:39:37","name":"Candela Mena","password":"$2b$10$9kCLw4.y6HiNNoQprbJOuuYTEJN6y5eKEhV1voP3eTcOIskhI3PBK","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":{"__v":0,"_id":"65c98d06b7aa2af49f67caa4","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[],"email":"ch@gmail.com","last_connection":"18/2/2024, 20:39:37","name":"Candela Mena","password":"$2b$10$9kCLw4.y6HiNNoQprbJOuuYTEJN6y5eKEhV1voP3eTcOIskhI3PBK","role":"user"}}
+{"level":"error","message":"user not found"}
+{"level":"error","message":"user not found"}
+{"level":"error","message":"user not found"}
+{"level":"error","message":"user not found"}
+{"level":"error","message":"user not found"}
+{"level":"error","message":"user not found"}
+{"level":"error","message":"user not found"}
+{"level":"error","message":"user not found"}
+{"level":"error","message":"user not found"}
+{"level":"error","message":"user not found"}
+{"level":"error","message":"user not found"}
+{"level":"error","message":"user not found"}
+{"level":"error","message":"user not found"}
+{"level":"info","message":{"__v":0,"_id":"65c98d06b7aa2af49f67caa4","age":18,"cart":"65c98c10eac60bc93708b3ee","email":"ch@gmail.com","last_connection":"18/2/2024, 20:39:38","name":"Candela Mena","password":"$2b$10$9kCLw4.y6HiNNoQprbJOuuYTEJN6y5eKEhV1voP3eTcOIskhI3PBK","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":{"__v":0,"_id":"65c98d06b7aa2af49f67caa4","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[],"email":"ch@gmail.com","last_connection":"18/2/2024, 20:39:38","name":"Candela Mena","password":"$2b$10$9kCLw4.y6HiNNoQprbJOuuYTEJN6y5eKEhV1voP3eTcOIskhI3PBK","role":"user"}}
+{"level":"info","message":{"__v":0,"_id":"65c98d06b7aa2af49f67caa4","age":18,"cart":"65c98c10eac60bc93708b3ee","email":"ch@gmail.com","last_connection":"18/2/2024, 20:45:25","name":"Candela Mena","password":"$2b$10$9kCLw4.y6HiNNoQprbJOuuYTEJN6y5eKEhV1voP3eTcOIskhI3PBK","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":{"__v":0,"_id":"65c98d06b7aa2af49f67caa4","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[],"email":"ch@gmail.com","last_connection":"18/2/2024, 20:45:25","name":"Candela Mena","password":"$2b$10$9kCLw4.y6HiNNoQprbJOuuYTEJN6y5eKEhV1voP3eTcOIskhI3PBK","role":"user"}}
+{"level":"info","message":{"__v":0,"_id":"65c98d06b7aa2af49f67caa4","age":18,"cart":"65c98c10eac60bc93708b3ee","email":"ch@gmail.com","last_connection":"18/2/2024, 20:49:11","name":"Candela Mena","password":"$2b$10$9kCLw4.y6HiNNoQprbJOuuYTEJN6y5eKEhV1voP3eTcOIskhI3PBK","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":{"__v":0,"_id":"65c98d06b7aa2af49f67caa4","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[],"email":"ch@gmail.com","last_connection":"18/2/2024, 20:49:11","name":"Candela Mena","password":"$2b$10$9kCLw4.y6HiNNoQprbJOuuYTEJN6y5eKEhV1voP3eTcOIskhI3PBK","role":"user"}}
+{"level":"info","message":{"__v":0,"_id":"65c98d06b7aa2af49f67caa4","age":18,"cart":"65c98c10eac60bc93708b3ee","email":"ch@gmail.com","last_connection":"18/2/2024, 20:50:21","name":"Candela Mena","password":"$2b$10$9kCLw4.y6HiNNoQprbJOuuYTEJN6y5eKEhV1voP3eTcOIskhI3PBK","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":{"__v":0,"_id":"65c98d06b7aa2af49f67caa4","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[],"email":"ch@gmail.com","last_connection":"18/2/2024, 20:50:21","name":"Candela Mena","password":"$2b$10$9kCLw4.y6HiNNoQprbJOuuYTEJN6y5eKEhV1voP3eTcOIskhI3PBK","role":"user"}}
+{"level":"info","message":{"__v":0,"_id":"65c98d06b7aa2af49f67caa4","age":18,"cart":"65c98c10eac60bc93708b3ee","email":"ch@gmail.com","last_connection":"18/2/2024, 20:50:22","name":"Candela Mena","password":"$2b$10$9kCLw4.y6HiNNoQprbJOuuYTEJN6y5eKEhV1voP3eTcOIskhI3PBK","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":{"__v":0,"_id":"65c98d06b7aa2af49f67caa4","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[],"email":"ch@gmail.com","last_connection":"18/2/2024, 20:50:22","name":"Candela Mena","password":"$2b$10$9kCLw4.y6HiNNoQprbJOuuYTEJN6y5eKEhV1voP3eTcOIskhI3PBK","role":"user"}}
+{"level":"info","message":{"__v":0,"_id":"65c98d06b7aa2af49f67caa4","age":18,"cart":"65c98c10eac60bc93708b3ee","email":"ch@gmail.com","last_connection":"18/2/2024, 20:50:24","name":"Candela Mena","password":"$2b$10$9kCLw4.y6HiNNoQprbJOuuYTEJN6y5eKEhV1voP3eTcOIskhI3PBK","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":{"__v":0,"_id":"65c98d06b7aa2af49f67caa4","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[],"email":"ch@gmail.com","last_connection":"18/2/2024, 20:50:24","name":"Candela Mena","password":"$2b$10$9kCLw4.y6HiNNoQprbJOuuYTEJN6y5eKEhV1voP3eTcOIskhI3PBK","role":"user"}}
+{"level":"info","message":{"__v":0,"_id":"65c98d06b7aa2af49f67caa4","age":18,"cart":"65c98c10eac60bc93708b3ee","email":"ch@gmail.com","last_connection":"18/2/2024, 20:51:02","name":"Candela Mena","password":"$2b$10$9kCLw4.y6HiNNoQprbJOuuYTEJN6y5eKEhV1voP3eTcOIskhI3PBK","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":{"__v":0,"_id":"65c98d06b7aa2af49f67caa4","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[],"email":"ch@gmail.com","last_connection":"18/2/2024, 20:51:02","name":"Candela Mena","password":"$2b$10$9kCLw4.y6HiNNoQprbJOuuYTEJN6y5eKEhV1voP3eTcOIskhI3PBK","role":"user"}}
+{"level":"info","message":{"__v":0,"_id":"65c98d06b7aa2af49f67caa4","age":18,"cart":"65c98c10eac60bc93708b3ee","email":"ch@gmail.com","last_connection":"18/2/2024, 20:51:04","name":"Candela Mena","password":"$2b$10$9kCLw4.y6HiNNoQprbJOuuYTEJN6y5eKEhV1voP3eTcOIskhI3PBK","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":{"__v":0,"_id":"65c98d06b7aa2af49f67caa4","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[],"email":"ch@gmail.com","last_connection":"18/2/2024, 20:51:04","name":"Candela Mena","password":"$2b$10$9kCLw4.y6HiNNoQprbJOuuYTEJN6y5eKEhV1voP3eTcOIskhI3PBK","role":"user"}}
+{"level":"error","message":"user not found"}
+{"level":"error","message":"user not found"}
+{"level":"error","message":"user not found"}
+{"level":"error","message":"user not found"}
+{"level":"error","message":"user not found"}
+{"level":"info","message":{"__v":0,"_id":"65c98d06b7aa2af49f67caa4","age":18,"cart":"65c98c10eac60bc93708b3ee","email":"ch@gmail.com","last_connection":"18/2/2024, 20:51:05","name":"Candela Mena","password":"$2b$10$9kCLw4.y6HiNNoQprbJOuuYTEJN6y5eKEhV1voP3eTcOIskhI3PBK","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":{"__v":0,"_id":"65c98d06b7aa2af49f67caa4","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[],"email":"ch@gmail.com","last_connection":"18/2/2024, 20:51:05","name":"Candela Mena","password":"$2b$10$9kCLw4.y6HiNNoQprbJOuuYTEJN6y5eKEhV1voP3eTcOIskhI3PBK","role":"user"}}
+{"level":"info","message":{"__v":0,"_id":"65c98d06b7aa2af49f67caa4","age":18,"cart":"65c98c10eac60bc93708b3ee","email":"ch@gmail.com","last_connection":"19/2/2024, 00:15:06","name":"Candela Mena","password":"$2b$10$9kCLw4.y6HiNNoQprbJOuuYTEJN6y5eKEhV1voP3eTcOIskhI3PBK","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":{"__v":0,"_id":"65c98d06b7aa2af49f67caa4","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[],"email":"ch@gmail.com","last_connection":"19/2/2024, 00:15:06","name":"Candela Mena","password":"$2b$10$9kCLw4.y6HiNNoQprbJOuuYTEJN6y5eKEhV1voP3eTcOIskhI3PBK","role":"user"}}
+{"level":"info","message":{"__v":0,"_id":"65c98d06b7aa2af49f67caa4","age":18,"cart":"65c98c10eac60bc93708b3ee","email":"ch@gmail.com","last_connection":"19/2/2024, 00:15:25","name":"Candela Mena","password":"$2b$10$9kCLw4.y6HiNNoQprbJOuuYTEJN6y5eKEhV1voP3eTcOIskhI3PBK","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":{"__v":0,"_id":"65c98d06b7aa2af49f67caa4","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[],"email":"ch@gmail.com","last_connection":"19/2/2024, 00:15:25","name":"Candela Mena","password":"$2b$10$9kCLw4.y6HiNNoQprbJOuuYTEJN6y5eKEhV1voP3eTcOIskhI3PBK","role":"user"}}
+{"level":"info","message":null}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":{"__v":0,"_id":"65d2cd0bc427dcdd92ca30b9","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[],"email":"je@gmail.com","password":"$2b$10$UsqguIHUMH64y1DCfkYBeeoHSxN/HXFTvxrh4p3P1m4CaLX5/BRXS","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":{"__v":0,"_id":"65d2cd0bc427dcdd92ca30b9","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[],"email":"je@gmail.com","password":"$2b$10$UsqguIHUMH64y1DCfkYBeeoHSxN/HXFTvxrh4p3P1m4CaLX5/BRXS","role":"user"}}
+{"level":"info","message":{"__v":0,"_id":"65d2cd0bc427dcdd92ca30b9","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[],"email":"je@gmail.com","last_connection":"19/2/2024, 00:38:03","password":"$2b$10$UsqguIHUMH64y1DCfkYBeeoHSxN/HXFTvxrh4p3P1m4CaLX5/BRXS","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":{"__v":0,"_id":"65d2cd0bc427dcdd92ca30b9","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[],"email":"je@gmail.com","last_connection":"19/2/2024, 00:38:03","password":"$2b$10$UsqguIHUMH64y1DCfkYBeeoHSxN/HXFTvxrh4p3P1m4CaLX5/BRXS","role":"user"}}
+{"level":"info","message":{"__v":0,"_id":"65d2cd0bc427dcdd92ca30b9","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[{"_id":"65d2cfd12de2e71505792ccd","name":"1708314577797-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708314577797-trabajo geografia20210508_042.png"},{"_id":"65d2cfd12de2e71505792cce","name":"1708314577830-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708314577830-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"}],"email":"je@gmail.com","last_connection":"19/2/2024, 00:38:03","password":"$2b$10$UsqguIHUMH64y1DCfkYBeeoHSxN/HXFTvxrh4p3P1m4CaLX5/BRXS","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":{"__v":0,"_id":"65d2cd0bc427dcdd92ca30b9","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[{"_id":"65d2cfd12de2e71505792ccd","name":"1708314577797-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708314577797-trabajo geografia20210508_042.png"},{"_id":"65d2cfd12de2e71505792cce","name":"1708314577830-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708314577830-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"}],"email":"je@gmail.com","last_connection":"19/2/2024, 00:38:03","password":"$2b$10$UsqguIHUMH64y1DCfkYBeeoHSxN/HXFTvxrh4p3P1m4CaLX5/BRXS","role":"user"}}
+{"level":"info","message":{"__v":0,"_id":"65d2cd0bc427dcdd92ca30b9","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[{"_id":"65d2cfd12de2e71505792ccd","name":"1708314577797-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708314577797-trabajo geografia20210508_042.png"},{"_id":"65d2cfd12de2e71505792cce","name":"1708314577830-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708314577830-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"},{"_id":"65d2d149cdb31142ba69ca85","name":"1708314953781-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708314953781-trabajo geografia20210508_042.png"},{"_id":"65d2d149cdb31142ba69ca86","name":"1708314953807-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708314953807-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"}],"email":"je@gmail.com","last_connection":"19/2/2024, 00:38:03","password":"$2b$10$UsqguIHUMH64y1DCfkYBeeoHSxN/HXFTvxrh4p3P1m4CaLX5/BRXS","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":{"__v":0,"_id":"65d2cd0bc427dcdd92ca30b9","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[{"_id":"65d2cfd12de2e71505792ccd","name":"1708314577797-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708314577797-trabajo geografia20210508_042.png"},{"_id":"65d2cfd12de2e71505792cce","name":"1708314577830-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708314577830-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"},{"_id":"65d2d149cdb31142ba69ca85","name":"1708314953781-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708314953781-trabajo geografia20210508_042.png"},{"_id":"65d2d149cdb31142ba69ca86","name":"1708314953807-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708314953807-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"}],"email":"je@gmail.com","last_connection":"19/2/2024, 00:38:03","password":"$2b$10$UsqguIHUMH64y1DCfkYBeeoHSxN/HXFTvxrh4p3P1m4CaLX5/BRXS","role":"user"}}
+{"level":"info","message":null}
+{"level":"info","message":"pasamos registro"}
+{"level":"info","message":{"__v":0,"_id":"65d2d2ab15d5b64b9530d314","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[],"email":"je@gmail.com","password":"$2b$10$nPJk59.4Ig7ilpQd32/CY.ocxlDeTa.yRTUMXoGJJ1tB5TPBFcSSO","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":{"__v":0,"_id":"65d2d2ab15d5b64b9530d314","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[],"email":"je@gmail.com","password":"$2b$10$nPJk59.4Ig7ilpQd32/CY.ocxlDeTa.yRTUMXoGJJ1tB5TPBFcSSO","role":"user"}}
+{"level":"info","message":{"__v":0,"_id":"65d2d2ab15d5b64b9530d314","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[],"email":"je@gmail.com","last_connection":"19/2/2024, 01:02:02","password":"$2b$10$nPJk59.4Ig7ilpQd32/CY.ocxlDeTa.yRTUMXoGJJ1tB5TPBFcSSO","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":{"__v":0,"_id":"65d2d2ab15d5b64b9530d314","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[],"email":"je@gmail.com","last_connection":"19/2/2024, 01:02:02","password":"$2b$10$nPJk59.4Ig7ilpQd32/CY.ocxlDeTa.yRTUMXoGJJ1tB5TPBFcSSO","role":"user"}}
+{"level":"info","message":{"__v":0,"_id":"65d2d2ab15d5b64b9530d314","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[],"email":"je@gmail.com","last_connection":"19/2/2024, 01:02:06","password":"$2b$10$nPJk59.4Ig7ilpQd32/CY.ocxlDeTa.yRTUMXoGJJ1tB5TPBFcSSO","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":{"__v":0,"_id":"65d2d2ab15d5b64b9530d314","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[],"email":"je@gmail.com","last_connection":"19/2/2024, 01:02:06","password":"$2b$10$nPJk59.4Ig7ilpQd32/CY.ocxlDeTa.yRTUMXoGJJ1tB5TPBFcSSO","role":"user"}}
+{"level":"info","message":{"__v":0,"_id":"65d2d2ab15d5b64b9530d314","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[{"_id":"65d2d34215d5b64b9530d31f","name":"1708315458342-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708315458342-trabajo geografia20210508_042.png"},{"_id":"65d2d34215d5b64b9530d320","name":"1708315458368-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708315458368-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"}],"email":"je@gmail.com","last_connection":"19/2/2024, 01:02:06","password":"$2b$10$nPJk59.4Ig7ilpQd32/CY.ocxlDeTa.yRTUMXoGJJ1tB5TPBFcSSO","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":{"__v":0,"_id":"65d2d2ab15d5b64b9530d314","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[{"_id":"65d2d34215d5b64b9530d31f","name":"1708315458342-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708315458342-trabajo geografia20210508_042.png"},{"_id":"65d2d34215d5b64b9530d320","name":"1708315458368-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708315458368-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"}],"email":"je@gmail.com","last_connection":"19/2/2024, 01:02:06","password":"$2b$10$nPJk59.4Ig7ilpQd32/CY.ocxlDeTa.yRTUMXoGJJ1tB5TPBFcSSO","role":"user"}}
+{"level":"info","message":{"__v":0,"_id":"65d2d2ab15d5b64b9530d314","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[{"_id":"65d2d34215d5b64b9530d31f","name":"1708315458342-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708315458342-trabajo geografia20210508_042.png"},{"_id":"65d2d34215d5b64b9530d320","name":"1708315458368-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708315458368-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"},{"_id":"65d2d3a82f9ef367dce863f6","name":"1708315560038-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708315560038-trabajo geografia20210508_042.png"},{"_id":"65d2d3a82f9ef367dce863f7","name":"1708315560073-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708315560073-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"}],"email":"je@gmail.com","last_connection":"19/2/2024, 01:02:06","password":"$2b$10$nPJk59.4Ig7ilpQd32/CY.ocxlDeTa.yRTUMXoGJJ1tB5TPBFcSSO","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":{"__v":0,"_id":"65d2d2ab15d5b64b9530d314","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[{"_id":"65d2d34215d5b64b9530d31f","name":"1708315458342-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708315458342-trabajo geografia20210508_042.png"},{"_id":"65d2d34215d5b64b9530d320","name":"1708315458368-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708315458368-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"},{"_id":"65d2d3a82f9ef367dce863f6","name":"1708315560038-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708315560038-trabajo geografia20210508_042.png"},{"_id":"65d2d3a82f9ef367dce863f7","name":"1708315560073-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708315560073-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"}],"email":"je@gmail.com","last_connection":"19/2/2024, 01:02:06","password":"$2b$10$nPJk59.4Ig7ilpQd32/CY.ocxlDeTa.yRTUMXoGJJ1tB5TPBFcSSO","role":"user"}}
+{"level":"info","message":{"__v":0,"_id":"65d2d2ab15d5b64b9530d314","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[{"_id":"65d2d34215d5b64b9530d31f","name":"1708315458342-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708315458342-trabajo geografia20210508_042.png"},{"_id":"65d2d34215d5b64b9530d320","name":"1708315458368-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708315458368-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"},{"_id":"65d2d3a82f9ef367dce863f6","name":"1708315560038-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708315560038-trabajo geografia20210508_042.png"},{"_id":"65d2d3a82f9ef367dce863f7","name":"1708315560073-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708315560073-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"},{"_id":"65d2d41e317336b3f981a0f1","name":"1708315678614-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708315678614-trabajo geografia20210508_042.png"},{"_id":"65d2d41e317336b3f981a0f2","name":"1708315678670-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708315678670-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"}],"email":"je@gmail.com","last_connection":"19/2/2024, 01:02:06","password":"$2b$10$nPJk59.4Ig7ilpQd32/CY.ocxlDeTa.yRTUMXoGJJ1tB5TPBFcSSO","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":{"__v":0,"_id":"65d2d2ab15d5b64b9530d314","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[{"_id":"65d2d34215d5b64b9530d31f","name":"1708315458342-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708315458342-trabajo geografia20210508_042.png"},{"_id":"65d2d34215d5b64b9530d320","name":"1708315458368-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708315458368-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"},{"_id":"65d2d3a82f9ef367dce863f6","name":"1708315560038-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708315560038-trabajo geografia20210508_042.png"},{"_id":"65d2d3a82f9ef367dce863f7","name":"1708315560073-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708315560073-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"},{"_id":"65d2d41e317336b3f981a0f1","name":"1708315678614-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708315678614-trabajo geografia20210508_042.png"},{"_id":"65d2d41e317336b3f981a0f2","name":"1708315678670-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708315678670-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"}],"email":"je@gmail.com","last_connection":"19/2/2024, 01:02:06","password":"$2b$10$nPJk59.4Ig7ilpQd32/CY.ocxlDeTa.yRTUMXoGJJ1tB5TPBFcSSO","role":"user"}}
+{"level":"info","message":{"__v":0,"_id":"65d2d2ab15d5b64b9530d314","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[{"_id":"65d2d34215d5b64b9530d31f","name":"1708315458342-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708315458342-trabajo geografia20210508_042.png"},{"_id":"65d2d34215d5b64b9530d320","name":"1708315458368-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708315458368-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"},{"_id":"65d2d3a82f9ef367dce863f6","name":"1708315560038-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708315560038-trabajo geografia20210508_042.png"},{"_id":"65d2d3a82f9ef367dce863f7","name":"1708315560073-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708315560073-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"},{"_id":"65d2d41e317336b3f981a0f1","name":"1708315678614-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708315678614-trabajo geografia20210508_042.png"},{"_id":"65d2d41e317336b3f981a0f2","name":"1708315678670-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708315678670-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"},{"_id":"65d2d45cc8f52ff256dd05c7","name":"1708315740907-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708315740907-trabajo geografia20210508_042.png"},{"_id":"65d2d45cc8f52ff256dd05c8","name":"1708315740955-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708315740955-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"}],"email":"je@gmail.com","last_connection":"19/2/2024, 01:02:06","password":"$2b$10$nPJk59.4Ig7ilpQd32/CY.ocxlDeTa.yRTUMXoGJJ1tB5TPBFcSSO","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":{"__v":0,"_id":"65d2d2ab15d5b64b9530d314","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[{"_id":"65d2d34215d5b64b9530d31f","name":"1708315458342-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708315458342-trabajo geografia20210508_042.png"},{"_id":"65d2d34215d5b64b9530d320","name":"1708315458368-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708315458368-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"},{"_id":"65d2d3a82f9ef367dce863f6","name":"1708315560038-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708315560038-trabajo geografia20210508_042.png"},{"_id":"65d2d3a82f9ef367dce863f7","name":"1708315560073-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708315560073-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"},{"_id":"65d2d41e317336b3f981a0f1","name":"1708315678614-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708315678614-trabajo geografia20210508_042.png"},{"_id":"65d2d41e317336b3f981a0f2","name":"1708315678670-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708315678670-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"},{"_id":"65d2d45cc8f52ff256dd05c7","name":"1708315740907-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708315740907-trabajo geografia20210508_042.png"},{"_id":"65d2d45cc8f52ff256dd05c8","name":"1708315740955-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708315740955-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"}],"email":"je@gmail.com","last_connection":"19/2/2024, 01:02:06","password":"$2b$10$nPJk59.4Ig7ilpQd32/CY.ocxlDeTa.yRTUMXoGJJ1tB5TPBFcSSO","role":"user"}}
+{"level":"info","message":{"__v":0,"_id":"65d2d2ab15d5b64b9530d314","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[],"email":"je@gmail.com","last_connection":"19/2/2024, 01:10:42","password":"$2b$10$nPJk59.4Ig7ilpQd32/CY.ocxlDeTa.yRTUMXoGJJ1tB5TPBFcSSO","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":{"__v":0,"_id":"65d2d2ab15d5b64b9530d314","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[],"email":"je@gmail.com","last_connection":"19/2/2024, 01:10:42","password":"$2b$10$nPJk59.4Ig7ilpQd32/CY.ocxlDeTa.yRTUMXoGJJ1tB5TPBFcSSO","role":"user"}}
+{"level":"info","message":{"__v":0,"_id":"65d2d2ab15d5b64b9530d314","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[],"email":"je@gmail.com","last_connection":"19/2/2024, 01:11:51","password":"$2b$10$nPJk59.4Ig7ilpQd32/CY.ocxlDeTa.yRTUMXoGJJ1tB5TPBFcSSO","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":{"__v":0,"_id":"65d2d2ab15d5b64b9530d314","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[],"email":"je@gmail.com","last_connection":"19/2/2024, 01:11:51","password":"$2b$10$nPJk59.4Ig7ilpQd32/CY.ocxlDeTa.yRTUMXoGJJ1tB5TPBFcSSO","role":"user"}}
+{"level":"info","message":{"__v":0,"_id":"65d2d2ab15d5b64b9530d314","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[],"email":"je@gmail.com","last_connection":"19/2/2024, 01:11:56","password":"$2b$10$nPJk59.4Ig7ilpQd32/CY.ocxlDeTa.yRTUMXoGJJ1tB5TPBFcSSO","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":{"__v":0,"_id":"65d2d2ab15d5b64b9530d314","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[],"email":"je@gmail.com","last_connection":"19/2/2024, 01:11:56","password":"$2b$10$nPJk59.4Ig7ilpQd32/CY.ocxlDeTa.yRTUMXoGJJ1tB5TPBFcSSO","role":"user"}}
+{"level":"info","message":{"__v":0,"_id":"65d2d2ab15d5b64b9530d314","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[{"_id":"65d2d516a67604cb28f0be2f","name":"1708315926046-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708315926046-trabajo geografia20210508_042.png"},{"_id":"65d2d516a67604cb28f0be30","name":"1708315926073-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708315926073-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"}],"email":"je@gmail.com","last_connection":"19/2/2024, 01:11:56","password":"$2b$10$nPJk59.4Ig7ilpQd32/CY.ocxlDeTa.yRTUMXoGJJ1tB5TPBFcSSO","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":{"__v":0,"_id":"65d2d2ab15d5b64b9530d314","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[{"_id":"65d2d516a67604cb28f0be2f","name":"1708315926046-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708315926046-trabajo geografia20210508_042.png"},{"_id":"65d2d516a67604cb28f0be30","name":"1708315926073-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708315926073-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"}],"email":"je@gmail.com","last_connection":"19/2/2024, 01:11:56","password":"$2b$10$nPJk59.4Ig7ilpQd32/CY.ocxlDeTa.yRTUMXoGJJ1tB5TPBFcSSO","role":"user"}}
+{"level":"info","message":{"__v":0,"_id":"65d2d2ab15d5b64b9530d314","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[{"_id":"65d2d516a67604cb28f0be2f","name":"1708315926046-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708315926046-trabajo geografia20210508_042.png"},{"_id":"65d2d516a67604cb28f0be30","name":"1708315926073-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708315926073-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"},{"_id":"65d2d543b5e70a0626930e1b","name":"1708315971628-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708315971628-trabajo geografia20210508_042.png"},{"_id":"65d2d543b5e70a0626930e1c","name":"1708315971652-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708315971652-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"}],"email":"je@gmail.com","last_connection":"19/2/2024, 01:11:56","password":"$2b$10$nPJk59.4Ig7ilpQd32/CY.ocxlDeTa.yRTUMXoGJJ1tB5TPBFcSSO","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":{"__v":0,"_id":"65d2d2ab15d5b64b9530d314","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[{"_id":"65d2d516a67604cb28f0be2f","name":"1708315926046-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708315926046-trabajo geografia20210508_042.png"},{"_id":"65d2d516a67604cb28f0be30","name":"1708315926073-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708315926073-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"},{"_id":"65d2d543b5e70a0626930e1b","name":"1708315971628-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708315971628-trabajo geografia20210508_042.png"},{"_id":"65d2d543b5e70a0626930e1c","name":"1708315971652-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708315971652-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"}],"email":"je@gmail.com","last_connection":"19/2/2024, 01:11:56","password":"$2b$10$nPJk59.4Ig7ilpQd32/CY.ocxlDeTa.yRTUMXoGJJ1tB5TPBFcSSO","role":"user"}}
+{"level":"info","message":{"__v":0,"_id":"65d2d2ab15d5b64b9530d314","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[],"email":"je@gmail.com","last_connection":"19/2/2024, 01:14:01","password":"$2b$10$nPJk59.4Ig7ilpQd32/CY.ocxlDeTa.yRTUMXoGJJ1tB5TPBFcSSO","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":{"__v":0,"_id":"65d2d2ab15d5b64b9530d314","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[],"email":"je@gmail.com","last_connection":"19/2/2024, 01:14:01","password":"$2b$10$nPJk59.4Ig7ilpQd32/CY.ocxlDeTa.yRTUMXoGJJ1tB5TPBFcSSO","role":"user"}}
+{"level":"info","message":{"__v":0,"_id":"65d2d2ab15d5b64b9530d314","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[],"email":"je@gmail.com","last_connection":"19/2/2024, 01:14:51","password":"$2b$10$nPJk59.4Ig7ilpQd32/CY.ocxlDeTa.yRTUMXoGJJ1tB5TPBFcSSO","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":{"__v":0,"_id":"65d2d2ab15d5b64b9530d314","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[],"email":"je@gmail.com","last_connection":"19/2/2024, 01:14:51","password":"$2b$10$nPJk59.4Ig7ilpQd32/CY.ocxlDeTa.yRTUMXoGJJ1tB5TPBFcSSO","role":"user"}}
+{"level":"info","message":{"__v":0,"_id":"65d2d2ab15d5b64b9530d314","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[{"_id":"65d2d5df38bda4cbc48dabcd","name":"1708316127682-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708316127682-trabajo geografia20210508_042.png"},{"_id":"65d2d5df38bda4cbc48dabce","name":"1708316127715-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708316127715-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"}],"email":"je@gmail.com","last_connection":"19/2/2024, 01:14:51","password":"$2b$10$nPJk59.4Ig7ilpQd32/CY.ocxlDeTa.yRTUMXoGJJ1tB5TPBFcSSO","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":{"__v":0,"_id":"65d2d2ab15d5b64b9530d314","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[{"_id":"65d2d5df38bda4cbc48dabcd","name":"1708316127682-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708316127682-trabajo geografia20210508_042.png"},{"_id":"65d2d5df38bda4cbc48dabce","name":"1708316127715-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708316127715-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"}],"email":"je@gmail.com","last_connection":"19/2/2024, 01:14:51","password":"$2b$10$nPJk59.4Ig7ilpQd32/CY.ocxlDeTa.yRTUMXoGJJ1tB5TPBFcSSO","role":"user"}}
+{"level":"info","message":{"__v":0,"_id":"65d2d2ab15d5b64b9530d314","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[{"_id":"65d2d5df38bda4cbc48dabcd","name":"1708316127682-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708316127682-trabajo geografia20210508_042.png"},{"_id":"65d2d5df38bda4cbc48dabce","name":"1708316127715-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708316127715-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"},{"_id":"65d2d5f038bda4cbc48dabd9","name":"1708316144850-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708316144850-trabajo geografia20210508_042.png"},{"_id":"65d2d5f038bda4cbc48dabda","name":"1708316144884-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708316144884-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"}],"email":"je@gmail.com","last_connection":"19/2/2024, 01:14:51","password":"$2b$10$nPJk59.4Ig7ilpQd32/CY.ocxlDeTa.yRTUMXoGJJ1tB5TPBFcSSO","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":{"__v":0,"_id":"65d2d2ab15d5b64b9530d314","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[{"_id":"65d2d5df38bda4cbc48dabcd","name":"1708316127682-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708316127682-trabajo geografia20210508_042.png"},{"_id":"65d2d5df38bda4cbc48dabce","name":"1708316127715-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708316127715-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"},{"_id":"65d2d5f038bda4cbc48dabd9","name":"1708316144850-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708316144850-trabajo geografia20210508_042.png"},{"_id":"65d2d5f038bda4cbc48dabda","name":"1708316144884-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708316144884-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"}],"email":"je@gmail.com","last_connection":"19/2/2024, 01:14:51","password":"$2b$10$nPJk59.4Ig7ilpQd32/CY.ocxlDeTa.yRTUMXoGJJ1tB5TPBFcSSO","role":"user"}}
+{"level":"info","message":{"__v":0,"_id":"65d2d2ab15d5b64b9530d314","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[{"_id":"65d2d5df38bda4cbc48dabcd","name":"1708316127682-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708316127682-trabajo geografia20210508_042.png"},{"_id":"65d2d5df38bda4cbc48dabce","name":"1708316127715-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708316127715-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"},{"_id":"65d2d5f038bda4cbc48dabd9","name":"1708316144850-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708316144850-trabajo geografia20210508_042.png"},{"_id":"65d2d5f038bda4cbc48dabda","name":"1708316144884-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708316144884-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"}],"email":"je@gmail.com","last_connection":"19/2/2024, 01:15:50","password":"$2b$10$nPJk59.4Ig7ilpQd32/CY.ocxlDeTa.yRTUMXoGJJ1tB5TPBFcSSO","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":{"__v":0,"_id":"65d2d2ab15d5b64b9530d314","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[{"_id":"65d2d5df38bda4cbc48dabcd","name":"1708316127682-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708316127682-trabajo geografia20210508_042.png"},{"_id":"65d2d5df38bda4cbc48dabce","name":"1708316127715-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708316127715-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"},{"_id":"65d2d5f038bda4cbc48dabd9","name":"1708316144850-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708316144850-trabajo geografia20210508_042.png"},{"_id":"65d2d5f038bda4cbc48dabda","name":"1708316144884-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708316144884-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"}],"email":"je@gmail.com","last_connection":"19/2/2024, 01:15:50","password":"$2b$10$nPJk59.4Ig7ilpQd32/CY.ocxlDeTa.yRTUMXoGJJ1tB5TPBFcSSO","role":"user"}}
+{"level":"info","message":{"__v":0,"_id":"65d2d2ab15d5b64b9530d314","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[{"_id":"65d2d5df38bda4cbc48dabcd","name":"1708316127682-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708316127682-trabajo geografia20210508_042.png"},{"_id":"65d2d5df38bda4cbc48dabce","name":"1708316127715-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708316127715-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"},{"_id":"65d2d5f038bda4cbc48dabd9","name":"1708316144850-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708316144850-trabajo geografia20210508_042.png"},{"_id":"65d2d5f038bda4cbc48dabda","name":"1708316144884-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708316144884-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"},{"_id":"65d2d6208e6bbabd903d31aa","name":"1708316192867-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708316192867-trabajo geografia20210508_042.png"},{"_id":"65d2d6208e6bbabd903d31ab","name":"1708316192907-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708316192907-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"}],"email":"je@gmail.com","last_connection":"19/2/2024, 01:15:50","password":"$2b$10$nPJk59.4Ig7ilpQd32/CY.ocxlDeTa.yRTUMXoGJJ1tB5TPBFcSSO","role":"user"}}
+{"level":"info","message":"1234"}
+{"level":"info","message":{"__v":0,"_id":"65d2d2ab15d5b64b9530d314","age":18,"cart":"65c98c10eac60bc93708b3ee","documents":[{"_id":"65d2d5df38bda4cbc48dabcd","name":"1708316127682-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708316127682-trabajo geografia20210508_042.png"},{"_id":"65d2d5df38bda4cbc48dabce","name":"1708316127715-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708316127715-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"},{"_id":"65d2d5f038bda4cbc48dabd9","name":"1708316144850-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708316144850-trabajo geografia20210508_042.png"},{"_id":"65d2d5f038bda4cbc48dabda","name":"1708316144884-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708316144884-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"},{"_id":"65d2d6208e6bbabd903d31aa","name":"1708316192867-trabajo geografia20210508_042.png","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\profiles\\1708316192867-trabajo geografia20210508_042.png"},{"_id":"65d2d6208e6bbabd903d31ab","name":"1708316192907-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg","reference":"C:\\Users\\javier\\Desktop\\backendCandelaMena\\entrega17\\src\\public\\images\\products\\1708316192907-5f9fc6e1-29f8-4094-8f46-8db4ad81d33f.jpg"}],"email":"je@gmail.com","last_connection":"19/2/2024, 01:15:50","password":"$2b$10$nPJk59.4Ig7ilpQd32/CY.ocxlDeTa.yRTUMXoGJJ1tB5TPBFcSSO","role":"user"}}
