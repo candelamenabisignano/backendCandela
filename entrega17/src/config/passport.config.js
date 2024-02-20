@@ -15,7 +15,7 @@ const initializePassport=()=>{
         secretOrKey:PRIVATE_KEY //para acceder a los headers
     },async(jwt_payload, done)=>{
         try {
-            return done(null, jwt_payload.user._doc);
+            return done(null, jwt_payload.user);
         } catch (error) {
             done(error.message);
         }

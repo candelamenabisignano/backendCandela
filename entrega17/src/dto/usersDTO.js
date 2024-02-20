@@ -9,5 +9,6 @@ export default class UsersDTO {
     this._id=user._id;
     this.last_connection= user.last_connection;
     this.documents=user.documents;
+    this.status= user.status;
   }
 }

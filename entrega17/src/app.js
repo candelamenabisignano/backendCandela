@@ -52,7 +52,6 @@ app.use(passport.initialize());
 const server = app.listen(configs.port, () => console.log("server running"));
 
 const socketServer = new Server(server);
-console.log(__dirname)
 const messages = [];
 socketServer.on("connection", (socket) => {
   console.log("socket connected");

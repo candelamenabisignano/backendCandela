@@ -19,7 +19,8 @@ const usersSchema = new mongoose.Schema({
       reference:String
     }
   ],
-  last_connection:String
+  last_connection:String,
+  status:{type:String, default:"incomplete", enum:["complete", "incomplete"]}
 });
 
 usersSchema.pre("find findOne", () => {

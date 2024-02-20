@@ -96,14 +96,14 @@ const login = async (req, res) => {
 
     const userToUptade={...user, last_connection: new Date().toLocaleString()};
 
-    const userUptaded= await uptadeService(user._id, userToUptade);
-    req.logger.info(userUptaded);
-    const { password: _, ...userToken } = userUptaded;
+    await uptadeService(user._id, userToUptade);
+    const userToToken= await getUserByIdService(user._id);
+    const { password: _, ...userToken } = userToToken;
 
     const token = generateToken(userToken);
 
     return res
-      .cookie("tokenCookie", token, { maxAge: 100 * 100 * 100, httpOnly: true }).status(201).send({ status: "success", payload: userUptaded});
+      .cookie("tokenCookie", token, { maxAge: 100 * 100 * 100, httpOnly: true }).status(201).send({ status: "success", payload: userToToken});
   } catch (error) {
     res.status(500).send({ status: "error", error: error.message });
   }
