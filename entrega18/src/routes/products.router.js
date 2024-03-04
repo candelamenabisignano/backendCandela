@@ -1,0 +1,12 @@
+import { Router } from "express";
+import { getProduct, getProducts, addProduct, uptadeProduct,deleteProduct} from "../controllers/products.controller.js";
+import { handlePolicies } from "../middlewares/middlewares.js";
+import passport from "passport";
+import toAsyncRouter from 'async-express-decorator';
+const router=toAsyncRouter(Router());
+router.get('/', getProducts);
+router.get('/:id', getProduct);
+router.post('/', passport.authenticate('jwt', {session:false}),handlePolicies('admin','premium'), addProduct);
+router.put('/:id',passport.authenticate('jwt', {session:false}) ,handlePolicies('admin','premium'), uptadeProduct);
+router.delete('/:id', passport.authenticate('jwt', {session:false}),handlePolicies('admin','premium'), deleteProduct);
+export default router;

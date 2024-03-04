@@ -1,0 +1,23 @@
+{{#if isEmpty}}
+  <h1>ups! no tienes productos en tu carrito</h1>
+  <h2>agrega productos en tu carrito asi puedes comprarlos</h2>
+  {{else}}
+<section class="sectionProducts">
+  <ul>
+  {{#each products}}
+    <li>
+      <h2>product id:{{this.product._id}}</h1>
+      <p>quantity:{{this.quantity}}</h3>
+    </li>
+  {{/each}}
+  </ul>
+  <button class="endPurchase" name={{cartId}}>finalizar compra</button>
+  <hr>
+</section>
+<section class="purchasePage">
+  <h2>orden:</h2>
+  <ul class="listOrder"></ul>
+</section>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/carts.js"></script>
+{{/if}}

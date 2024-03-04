@@ -1,0 +1,15 @@
+<div>
+    {{#if isAdmin}}
+        {{#each users}}
+         <h2>{{this.email}}</h2>
+         <h3>{{this.role}}</h3>
+         <ul>
+            <li><button class="eliminateUser" name={{this._id}}>eliminar usuario</button></li>
+            <li><button class="modifyRole" name={{this._id}}>modificar rol</button></li>
+         </ul>
+         {{/each}}
+    {{else}}
+        <h1>el usuario no tiene los permisos suficientes como para acceder a esta vista</h1>
+    {{/if}}
+</div>
+<script src="/js/users.js"></script>

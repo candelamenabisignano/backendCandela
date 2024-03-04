@@ -1,0 +1,36 @@
+<section>
+  <h1>hola {{user.name}}!</h1>
+  <h2>edad:{{user.age}}</h2>
+  <h2>email:{{user.email}}</h2>
+  <div>
+  <h2 class="cartId">cart id : {{user.cart}}</h2>
+  <a href="/carts/{{user.cart}}">ir al carrito </a><br>
+  </div>
+</section>
+  <hr>
+  <section>
+{{#each products}}
+    {{#if persistence}}
+      <li>
+        <h3>{{this.title}}</h3>
+        <h4>{{this.price}}</h4>
+        <button class="addToCart" id={{this._id}}>add to cart</button>
+      </li>
+    {{else}}
+      <li>
+        <h3>{{this.title}}</h3>
+        <h4>{{this.price}}</h4>
+        <button class="addToCart" id={{this.id}}>add to cart</button>
+      </li>
+    {{/if}}
+  {{/each}}
+  {{#if hasPrevPage}}
+    <a href={{prevLink}}><button>anterior</button></a>
+  {{/if}}
+  {{#if hasNextPage}}
+    <a href={{nextLink}}><button>siguiente</button></a>
+  {{/if}}
+  </section>
+  <a href="/api/sessions/logout">salir de mi cuenta</a>
+</div>
+<script src="/js/index.js"></script>

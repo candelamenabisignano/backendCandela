@@ -1,0 +1,264 @@
+paths:
+  /api/carts:
+    get:
+      summary: este servicio obtiene todos los productos cargados en la BDD
+      tags:
+      - Carts
+      responses:
+        "200":
+          description: todos los carritos se obtuvieron con exito
+          content: 
+            application/json: 
+              schema: 
+                type: array 
+                items: 
+                  $ref: '#components/schemas/Cart' 
+        "500":
+          description: internal server error, comunmente se da debido a una query defectuosa o a un fallo en la conexion
+    post:
+      summary: este servicio crea un carrito en la BDD
+      tags:
+      - Carts
+      responses:
+        "201":
+          description: el carrito se creo con exito.
+          content: 
+            application/json: 
+              schema: 
+                  $ref: '#components/requestBodies/uptadeCart'
+        "400":
+          description: el body no recibio los campos indicados.
+        "500":
+          description: internal server error, comunmente se da debido a una query defectuosa o a un fallo en la conexion
+  /api/carts/{id}:
+    get:
+      summary: este servicio obtiene el carrito que coincide con el id pasado por path param
+      tags:
+        - Carts
+      parameters:
+        - name: id
+          in: path 
+          required: true
+          description: el id del carrito a buscar
+          schema:
+            $type: String
+      responses:
+        "200":
+          description: el carrito se obtuvo con exito
+          content: 
+            application/json: 
+              schema: 
+                $ref: '#components/schemas/Cart'
+        "404":
+          description: el carrito que se busca no fue encontrado
+        "500":
+          description: internal server error, comunmente se da debido a una query defectuosa o a un fallo en la conexion
+    put:
+      summary: este servicio obtiene y actualiza el carrito que coincide con el id pasado por path param
+      tags:
+        - Carts
+      parameters:
+        - name: id
+          in: path 
+          required: true
+          description: el id del carrito a actualizar
+          schema:
+            $type: String
+      responses:
+        "200":
+          description: el carrito se actualizo con exito
+          content: 
+            application/json: 
+              schema: 
+                $ref: '#components/requestBodies/uptadeCart'
+        "400":
+          description: el body no recibio los campos indicados.
+        "500":
+          description: internal server error, comunmente se da debido a una query defectuosa o a un fallo en la conexion
+    delete:
+      summary: este servicio obtiene y elimina de la BDD el carrito que coincide con el id pasado por path param
+      tags:
+        - Carts
+      parameters:
+        - name: id
+          in: path 
+          required: true
+          description: el id del carrito a eliminar
+          schema:
+            $type: String
+      responses:
+        "200":
+          description: el carrito se elimino con exito
+          content: 
+            application/json: 
+              schema: 
+                $ref: '#components/requestBodies/uptadeCart'
+        "404":
+          description: el carrito a eliminar no se encontro.
+        "500":
+          description: internal server error, comunmente se da debido a una query defectuosa o a un fallo en la conexion
+  /{cid}/products/{pid}:
+    put: 
+      summary: este servicio obtiene y actualiza un producto de un carrito pasado por id.
+      tags:
+        - Carts
+      parameters:
+        - name: cid
+          in: path 
+          required: true
+          description: el id del carrito a actualizar
+          schema:
+            $type: String
+        - name: pid
+          in: path
+          required: true
+          description: el id del producto a agregar al carrito
+          schema:
+            $type: String
+      responses:
+        "200":
+          description: el producto del carrito se actualizo con exito.
+          content: 
+            application/json: 
+              schema: 
+                $ref: '#components/requestBodies/uptadeCart'
+        "400":
+          description: el body no recibio los campos indicados.
+        "500":
+          description: internal server error, comunmente se da debido a una query defectuosa o a un fallo en la conexion
+    delete:
+      summary: este servicio obtiene y elimina de la BDD el carrito que coincide con el id pasado por path param
+      tags:
+        - Carts
+      parameters:
+        - name: cid
+          in: path 
+          required: true
+          description: el id del carrito a actualizar
+          schema:
+            $type: String
+        - name: pid
+          in: path
+          required: true
+          description: el id del producto a agregar al carrito
+          schema:
+            $type: String
+      responses:
+        "200":
+          description: el producto del carrito se elimino con exito.
+          content: 
+            application/json: 
+              schema: 
+                $ref: '#components/requestBodies/uptadeCart'
+        "404":
+          description: no se encontro el producto o el carrito indicado
+        "500":
+          description: internal server error, comunmente se da debido a una query defectuosa o a un fallo en la conexion
+  /{cid}/product/{pid}:
+    post:
+      summary: este servicio obtiene de la BDD y añade un producto a un carrito obtenido por path params.
+      tags:
+        - Carts
+      parameters:
+        - name: cid
+          in: path 
+          required: true
+          description: el id del carrito a actualizar
+          schema:
+            $type: String
+        - name: pid
+          in: path
+          required: true
+          description: el id del producto a agregar al carrito
+          schema:
+            $type: String
+      responses:
+        "201":
+          description: el producto se añadio al carrito con exito.
+          content: 
+            application/json: 
+              schema: 
+                $ref: '#components/requestBodies/uptadeCart'
+        "400":
+          description: se esta queriendo agregar un producto a un carrito siendo creador del mismo y ademas siendo un usuario premium.
+        "500":
+          description: internal server error, comunmente se da debido a una query defectuosa o a un fallo en la conexion
+  /{cid}/purchase:
+    get:
+      summary: este servicio termina la compra de un usuario mediante su carrito pasado por path params
+      tags:
+        - Carts
+      parameters:
+        - name: cid
+          in: path 
+          required: true
+          description: el id del carrito de la compra
+          schema:
+            $type: String
+      responses:
+        "200":
+          description: la compra se realizo exitosamente.
+          content: 
+            application/json: 
+              schema: 
+                $ref: '#components/requestBodies/orderCreated'
+        "500":
+          description: internal server error, comunmente se da debido a una query defectuosa o a un fallo en la conexion
+components: 
+  schemas:
+    Cart: 
+      type: Object 
+      properties: 
+        _id: 
+          type: ObjectId 
+          description: id autogenerado por mongodb, pertenece al product 
+        products:
+          type: Array
+          description: lista del productos que el carrito contiene
+      example: 
+        _id: ObjectId("0q9wml93812")
+        products: [{
+          product: ObjectId("0q9wml93812"),
+          quantity: 3
+        }]
+  requestBodies:
+    uptadeCart:
+      type: Object
+      properties:
+        products:
+          type: Array
+          description: lista del productos que el carrito contiene
+      example:
+        products: [{
+          product: ObjectId("0q4brbi84"),
+          quantity: 100
+        }]
+    deleteCart:
+      type: Object
+      properties:
+        products:
+          type: Array
+          description: lista del productos que el carrito contiene
+      example:
+        products: []
+    orderCreated:
+      type: Object
+      properties:
+        code: 
+          type: String
+          description: identificador de la orden.
+        purchase_datetime: 
+          type: String
+          description: fecha de la creacion de la orden.
+        amount:
+          type: Number
+          description: total a pagar en la orden
+        purchaser:
+          type: String
+          description: dueño de la compra
+      example:
+        code: "cdhqi-chusdoqi-20ncks"
+        purchase_datetime: "12/2/23"
+        amount: 1100.11
+        purchaser: ch@gmail.com
+

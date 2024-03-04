@@ -1,0 +1,18 @@
+import { Router } from "express";
+import {getUsersView,getProductsView,getCartView,getLoginView,getRegisterView, getChatView, getLoggerTest, getPasswordLinkView, getPasswordResetView} from '../controllers/views.controller.js';
+import passport from "passport";
+import { publicAccess, privateAccess } from "../middlewares/middlewares.js";
+import { getMockingProducts } from "../controllers/products.controller.js";
+import toAsyncRouter from "async-express-decorator";
+const router= toAsyncRouter(Router());
+router.get('/products', passport.authenticate('jwt', {session:false}),privateAccess,getProductsView);
+router.get('/mockingproducts', getMockingProducts);
+router.get('/password-link', getPasswordLinkView);
+router.get('/reset-password', getPasswordResetView);
+router.get('/loggerTest', getLoggerTest);
+router.get('/carts/:cid', getCartView);
+router.get('/register', publicAccess, getRegisterView);
+router.get('/login', publicAccess, getLoginView);
+router.get('/chat',passport.authenticate('jwt', {session:false}), getChatView );
+router.get('/users',passport.authenticate('jwt', {session:false}),getUsersView);
+export default router;

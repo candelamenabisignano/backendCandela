@@ -1,0 +1,189 @@
+paths:
+  /api/products:
+    get:
+      summary: este servicio obtiene todos los productos cargados en la BDD
+      tags:
+      - Products
+      responses:
+        "200": 
+          description: todos los productos se obtuvieron con exito
+          content: 
+            application/json: 
+              schema: 
+                type: array 
+                items: 
+                  $ref: '#components/schemas/Product' 
+        "500": 
+          description: internal server error, comunmente se da debido a una query defectuosa o por un fallo en la conexion
+    post:
+      summary: este servicio crea a base del body un producto
+      tags:
+        - Products
+      responses:
+        "201": 
+          description: el producto se creo con exito
+          content: 
+            application/json: 
+              schema: 
+                  $ref: '#components/requestBodies/uptadeProduct'
+        "404":
+          description: el body no recibio los campos indicados
+        "500": 
+          description: internal server error, comunmente se da debido a una query defectuosa o por un fallo en la conexion
+  /api/products/{id}:
+    get:
+      summary: este servicio obtiene el producto que coincide con el id pasado por path param
+      tags:
+        - Products
+      parameters:
+        - name: id
+          in: path 
+          required: true
+          description: el id del producto a buscar
+          schema:
+            $type: String
+      responses:
+        "200":
+          description: el producto se obtuvo con exito
+          content: 
+            application/json: 
+              schema: 
+                $ref: '#components/schemas/Product'
+        "404":
+          description: el producto que se busca no fue encontrado
+        "500":
+          description: internal server error, comunmente se da debido a una query defectuosa o a un fallo en la conexion
+    put:
+      summary: este servicio actualiza en base al body el producto que coincide con el id pasado por path param
+      tags:
+      - Products
+      parameters:
+        - name: id
+          in: path 
+          required: true
+          description: el id del producto a actualizar
+          schema:
+            $type: String
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#components/requestBodies/uptadeProduct'
+      responses:
+        "200":
+          description: el producto se actualizo con exito
+          content: 
+            application/json: 
+              schema: 
+                $ref: '#components/schemas/Product'
+        "404":
+          description: el body no recibio los campos indicados
+        "500":
+          description: internal server error, comunmente se da debido a una query defectuosa o a un fallo en la conexion
+    delete:
+      summary: este servicio elimina el producto que coincide con el id pasado por path param
+      tags:
+      - Products
+      parameters:
+        - name: id
+          in: path 
+          required: true
+          description: el id del producto a eliminar
+          schema:
+            $type: String
+      responses:
+        "200":
+          description: el producto se actualizo con exito
+          content: 
+            application/json: 
+              schema: 
+                $ref: '#components/schemas/Product'
+        "401":
+          description: las credenciales del usuario son invalidas (el producto no le pertenece al usuario que lo esta eliminando o el usuario no es admin)
+        "500":
+          description: internal server error, comunmente se da debido a una query defectuosa o a un fallo en la conexion
+      
+components: 
+  schemas:
+    Product: 
+      type: Object 
+      properties: 
+        _id: 
+          type: ObjectId 
+          description: id autogenerado por mongodb, pertenece al product 
+        title: 
+          type: String 
+          description: nombre del producto
+        description: 
+          type: String 
+          description: descripcion del producto
+        code: 
+          type: String 
+          description: codigo del producto
+        status: 
+          type: Boolean
+          description: estado del producto 
+        stock: 
+          type: Number
+          description: numero de stock del producto #descripcion de la misma
+        category: 
+          type: String
+          description: categoria a la que pertenece el producto #descripcion de la misma
+        thumbnail: 
+          type: array
+          items:
+            type: String
+          description: array de imagenes del producto #descripcion de la misma
+        avaiability:
+          type: Boolean
+          description: disponibilidad del producto
+      example: #mock de la data
+        _id: ObjectId("01923hkjwehqid")
+        title: Chicle Plutonita
+        description: Chicle Plutonita por unidad. Sabores banana, manzana y uva.
+        code: CH0808
+        status: true
+        stock: 100
+        category: caramelos
+        thumbnail: ["./CHPLU.png"]
+        avaiability: true
+  requestBodies:
+    uptadeProduct:
+      type: Object
+      properties:
+        title: 
+          type: String 
+          description: nombre del producto
+        description: 
+          type: String 
+          description: descripcion del producto
+        code: 
+          type: String 
+          description: codigo del producto
+        status: 
+          type: Boolean
+          description: estado del producto 
+        stock: 
+          type: Number
+          description: numero de stock del producto #descripcion de la misma
+        category: 
+          type: String
+          description: categoria a la que pertenece el producto #descripcion de la misma
+        thumbnail: 
+          type: array
+          items:
+            type: String
+          description: array de imagenes del producto #descripcion de la misma
+        avaiability:
+          type: Boolean
+          description: disponibilidad del producto
+      example:
+        title: Chicle Plutonita
+        description: Chicle Plutonita por unidad. Sabores banana, manzana y uva.
+        code: CH0808
+        status: true
+        stock: 100
+        category: caramelos
+        thumbnail: ["./CHPLU.png"]
+        avaiability: true
